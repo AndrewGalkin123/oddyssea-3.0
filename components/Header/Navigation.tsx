@@ -1,12 +1,11 @@
-import { Tabs } from "antd";
+import { ConfigProvider, Tabs } from "antd";
 import type { TabsProps } from "antd";
-import Link from "next/link";
 
 const items: TabsProps["items"] = [
   {
     key: "1",
     label: "История",
-    children: '' // сюда позже добавить страничку 
+    children: "", // сюда позже добавить страничку
   },
   {
     key: "2",
@@ -19,7 +18,25 @@ const items: TabsProps["items"] = [
 ];
 
 const Navigation: React.FC = () => {
-  return <Tabs className='navigation' size='large' centered items={items}></Tabs>;
+  return (
+    <ConfigProvider
+      theme={{
+        components: {
+          Tabs: {
+            colorBorderSecondary: 'none',
+            colorText: 'white',
+            itemSelectedColor: '#72de6f',
+            itemHoverColor: "#6db56b",
+            inkBarColor: '#72de6f',
+            itemActiveColor: '#72de6f',
+            algorithm: true, // Enable algorithm
+          }
+        }
+      }}
+    >
+      <Tabs className="navigation" size="large" centered items={items}></Tabs>
+    </ConfigProvider>
+  );
 };
 
 export { Navigation };
