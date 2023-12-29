@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./History.css"
 
 interface HistoryComponentProps {
   href: string;
@@ -14,8 +15,8 @@ const HistoryComponent: React.FC<HistoryComponentProps> = ({
   info,
 }) => {
   return (
-    <Link href={href}>
-      <img src={src}></img>
+    <Link href={href} className="box">
+      <img className="history-component-image" src={src}></img>
       <h2>{title}</h2>
       <p>{info}</p>
     </Link>
