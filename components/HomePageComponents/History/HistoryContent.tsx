@@ -4,7 +4,7 @@ import { HistoryComponent } from "./HistoryComponent";
 const items = [
   {
     href: "/",
-    src: "/assets/historyComponent/opera.jpg",
+    src: "/assets/historyComponent/sailorWife.jpeg",
     title: "",
     info: "",
   },
@@ -22,7 +22,7 @@ const items = [
   },
   {
     href: "/",
-    src: "/assets/historyComponent/sailorWife.jpeg",
+    src: "/assets/historyComponent/opera.jpg",
     title: "",
     info: "",
   },

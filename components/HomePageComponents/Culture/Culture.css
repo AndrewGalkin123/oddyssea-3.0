@@ -48,15 +48,13 @@
     left: 0;
     bottom: 0;
     width: 100%;
-
     padding: 30px 10px;
     box-sizing: border-box;
     background: rgba(108, 214, 70, 0.0);
     font-family: Arial;
     letter-spacing: normal !important;
     color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
     line-height: 20px;
     text-align: center;
     z-index: 2;
