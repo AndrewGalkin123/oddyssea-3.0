@@ -1,4 +1,4 @@
-import { Row, Col, Divider, Typography } from "antd";
+import { Row, Divider, Typography } from "antd";
 import { HistoryComponent } from "./HistoryComponent";
 
 const items = [
@@ -31,8 +31,10 @@ const items = [
 const HistoryContent: React.FC = () => {
   return (
     <Row>
-      <Typography.Title level={3}>История</Typography.Title>
-      <Divider />
+      <Typography.Title className="title" level={3}>
+        История
+      </Typography.Title>
+      <Divider style={{ margin: "10px 0 10px 0" }} />
       <div
         className="content"
         style={{

@@ -10,7 +10,7 @@ const contentStyle: React.CSSProperties = {
 
 const Slider: React.FC = () => {
   return (
-    <Carousel autoplay autoplaySpeed={5000}>
+    <Carousel autoplay autoplaySpeed={5000} style={{marginBottom: '20px'}}>
       <div>
         <h3 style={contentStyle}>1</h3>
       </div>
