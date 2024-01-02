@@ -1,7 +1,6 @@
 import { Row, Divider, Typography } from "antd";
 import { CultureComponent } from "./CultureComponent";
 
-
 const items = [
   {
     href: "",
@@ -43,7 +42,6 @@ const items = [
     src: "/assets/cultureComponent/dukeMonument.jpeg",
     title: "Duke Monument",
   },
-
 ];
 
 const CultureContent: React.FC = () => {
@@ -75,6 +73,7 @@ const CultureContent: React.FC = () => {
           >
             {items.map((item) => (
               <CultureComponent
+                key={item.src}
                 href={item.href}
                 src={item.src}
                 title={item.title}

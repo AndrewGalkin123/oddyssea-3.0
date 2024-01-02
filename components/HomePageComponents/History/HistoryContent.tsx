@@ -48,6 +48,7 @@ const HistoryContent: React.FC = () => {
       >
         {items.map((item) => (
           <HistoryComponent
+            key={item.src}
             href={item.href}
             src={item.src}
             title={item.title}

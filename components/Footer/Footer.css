@@ -23,11 +23,10 @@ footer {
 }
 
 .footer-col h4 { 
-	font-size: 18px;
+	font-size: 16px;
 	color: #ffffff;
-	
 	margin-bottom: 35px;
-	font-weight: 500;
+	font-weight: 400;
 	position: relative;
 	
 }
@@ -48,7 +47,7 @@ footer {
 }
 
 .footer-col ul li a {
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
