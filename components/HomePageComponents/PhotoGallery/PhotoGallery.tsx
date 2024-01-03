@@ -63,7 +63,7 @@ const PhotoGallery: React.FC = () => {
         </Row>
        
       </div>
-      <RedirectButton to="/">Смотреть фотки</RedirectButton>
+      <RedirectButton to="/history">Смотреть фотки</RedirectButton>
     </Row>
   );
 };

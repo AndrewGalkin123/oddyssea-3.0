@@ -1,5 +1,5 @@
 import { Row, Divider, Typography } from "antd";
-import { CultureComponent } from "./CultureComponent";
+import { RedirectBlock } from "../../MainRedirectBlock/RedirectBlock";
 
 const items = [
   {
@@ -72,7 +72,7 @@ const CultureContent: React.FC = () => {
             }}
           >
             {items.map((item) => (
-              <CultureComponent
+              <RedirectBlock
                 key={item.src}
                 href={item.href}
                 src={item.src}

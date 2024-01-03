@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+main { 
+  background-color: rgb(209, 233, 255);
+
+}
+
 .content {
   position: relative;
   width: 94%;

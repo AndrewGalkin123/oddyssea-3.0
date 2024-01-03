@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ConfigProvider } from "antd";
+import { FloatButton } from "antd";
 import { Inter } from "next/font/google";
 import "./globals.css";
 

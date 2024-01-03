@@ -1,12 +1,12 @@
-import "./Culture.css";
+import "./RedirectBlock.css";
 
-interface CultureComponentProps {
+interface RedirectBlockProps {
   href: string;
   src: string;
   title: string;
 }
 
-const CultureComponent: React.FC<CultureComponentProps> = ({
+const RedirectBlock: React.FC<RedirectBlockProps> = ({
   href,
   src,
   title,
@@ -20,4 +20,4 @@ const CultureComponent: React.FC<CultureComponentProps> = ({
   );
 };
 
-export { CultureComponent };
+export { RedirectBlock };
