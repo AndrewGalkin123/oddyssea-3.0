@@ -1,6 +1,6 @@
 'use client'
 
-import { RedirectBlock } from "../../../components/MainRedirectBlock/RedirectBlock";
+import { RedirectBlock } from "../../../components/common/MainRedirectBlock/RedirectBlock";
 import { Row, Col, FloatButton } from "antd";
 
 

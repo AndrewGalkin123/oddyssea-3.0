@@ -1,6 +1,6 @@
 import { Row, Col, Typography, Divider } from "antd";
 import "./PhotoGallery.css";
-import RedirectButton from "../../RedirectButton/RedirectButton";
+import RedirectButton from "../../common/RedirectButton/RedirectButton";
 
 const PhotoGallery: React.FC = () => {
   return (

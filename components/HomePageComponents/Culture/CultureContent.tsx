@@ -1,5 +1,5 @@
 import { Row, Divider, Typography } from "antd";
-import { RedirectBlock } from "../../MainRedirectBlock/RedirectBlock";
+import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 
 const items = [
   {

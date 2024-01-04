@@ -3,8 +3,8 @@ import { FloatButton } from "antd";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import { TheHeader } from "../../components/Header/TheHeader";
-import { TheFooter } from "../../components/Footer/TheFooter";
+import { TheHeader } from "../../components/common/Header/TheHeader";
+import { TheFooter } from "../../components/common/Footer/TheFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
