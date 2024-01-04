@@ -6,7 +6,7 @@ import { BurgerMenu } from "./BurgerMenu/BurgerMenu";
 const TheHeader: React.FC = () => {
   return (
     <header>
-      <img id="main-logo" src="/anchor.png" alt="Anchor"></img>
+      <a href="/"><img id="main-logo" src="/anchor.png" alt="Anchor"></img></a>
       <Navigation></Navigation>
       <BurgerMenu />
     </header>
