@@ -1,0 +1,19 @@
+{
+    "header": {
+      "ru": {
+        "history": "История",
+        "culture": "Культура",
+        "photogallery": "Фотогалерея"
+      },
+      "uk": {
+        "history": "Історія",
+        "culture": "Культура",
+        "photogallery": "Фотогалерея"
+      },
+      "en": {
+        "history": "History",
+        "culture": "Culture",
+        "photogallery": "Photo Gallery"
+      }
+    }
+}

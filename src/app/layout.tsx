@@ -1,8 +1,8 @@
+
 import type { Metadata } from "next";
 import { FloatButton } from "antd";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
 import { TheHeader } from "../../components/common/Header/TheHeader";
 import { TheFooter } from "../../components/common/Footer/TheFooter";
 
@@ -30,9 +30,11 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <TheHeader />
-        {children}
-        <TheFooter />
+       
+          <TheHeader />
+          {children}
+          <TheFooter />
+        
       </body>
     </html>
   );
