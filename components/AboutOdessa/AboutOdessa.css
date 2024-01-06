@@ -1,0 +1,28 @@
+.about-odessa-block { 
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.odessa-flag { 
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    min-height: 290px;
+    object-fit: cover;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid grey;
+}
+
+@media (max-width: 992px) {
+    .odessa-flag  {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    
+}
+

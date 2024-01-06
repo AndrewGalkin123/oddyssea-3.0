@@ -11,7 +11,7 @@ const BurgerMenu:React.FC = () => {
         <ul className="menubox">
             <li><a className="menu-item" href="/about"></a></li>
             <li><a className="menu-item" href="/about"></a></li>
-            <li><a className="menu-item" href="/aboutodessa"></a></li>
+            <li><a className="menu-item" href="/about-odessa">Про Одессу</a></li>
             <li><a className="menu-item" href="/about"></a></li>
             <li><a className="menu-item" href="#"></a></li>
             <li><a className="menu-item" href="/contacts"></a></li>
