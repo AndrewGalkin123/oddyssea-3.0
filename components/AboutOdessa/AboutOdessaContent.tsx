@@ -1,9 +1,11 @@
 'use client'
 
-import { Row, Col, Typography, Divider } from "antd";
+import { Row, Typography, Divider } from "antd";
 import './AboutOdessa.css'
+import { useTranslation } from 'next-i18next';
 
 const AboutOdessaContent: React.FC = () => {
+  const { t } = useTranslation('common');
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
@@ -16,7 +18,7 @@ const AboutOdessaContent: React.FC = () => {
                 <img className="odessa-flag" src="/assets/odessaFlag.png"></img>
                 <br></br>
                 <div className="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt rem expedita nobis temporibus mollitia saepe, recusandae ratione error architecto animi rerum quis, unde quos accusamus excepturi vero ipsa impedit.</p>
+                    <p>{t('greeting')}</p>
                     <br></br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt rem expedita nobis temporibus mollitia saepe, recusandae ratione error architecto animi rerum quis, unde quos accusamus excepturi vero ipsa impedit.</p>
                     <br></br>

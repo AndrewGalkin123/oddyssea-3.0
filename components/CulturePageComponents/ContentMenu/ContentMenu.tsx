@@ -5,6 +5,7 @@ import { Menu } from "antd";
 const { Item, SubMenu } = Menu;
 
 const ContentMenu: React.FC = () => {
+  
   return (
     <Menu style={{ height: "100%"}} >
       <SubMenu key={"1"} title="Номер 1">

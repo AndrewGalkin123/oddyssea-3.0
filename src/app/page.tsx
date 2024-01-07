@@ -6,6 +6,7 @@ import { HistoryContent } from "../../components/HomePageComponents/History/Hist
 import { CultureContent } from "../../components/HomePageComponents/Culture/CultureContent";
 import { PhotoGallery } from "../../components/HomePageComponents/PhotoGallery/PhotoGallery";
 
+
 export default function Home() {
   return (
     <main>

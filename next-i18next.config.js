@@ -1,7 +1,8 @@
 // next-i18next.config.js
-const NextI18Next = require("next-i18next").default;
+const { i18n } = require('next-i18next');
 
-module.exports = new NextI18Next({
-  defaultLanguage: "ru",
-  otherLanguages: ["en"],
-});
+module.exports = {
+  i18n,
+  defaultLocale: 'ru',
+  locales: ['en', 'ru'],
+};
