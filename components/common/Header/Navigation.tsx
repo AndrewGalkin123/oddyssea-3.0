@@ -2,6 +2,8 @@
 
 import { ConfigProvider, Tabs } from "antd";
 import type { TabsProps } from "antd";
+import {useSelectedLayoutSegment} from 'next/navigation';
+
 
 const items: TabsProps["items"] = [
   {
@@ -18,11 +20,17 @@ const items: TabsProps["items"] = [
   },
 ];
 
+
+
 const Navigation: React.FC = () => {
+  const selectedLayoutSegment = useSelectedLayoutSegment();
+  
   const handleTabChange = (key: string) => {
     
-    window.location.href = key;
+    window.location.href = `/${selectedLayoutSegment}/${key}`;
+    
   };
+  
   return (
     <ConfigProvider
       theme={{

@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
-import { ContentMenu } from "../../../components/CulturePageComponents/ContentMenu/ContentMenu";
-import { Content } from "../../../components/CulturePageComponents/Content/Content";
+import { ContentMenu } from "../../../../components/CulturePageComponents/ContentMenu/ContentMenu";
+import { Content } from "../../../../components/CulturePageComponents/Content/Content";
+
 
 export default function Culture() {
   return (

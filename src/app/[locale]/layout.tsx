@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { TheHeader } from "../../components/common/Header/TheHeader";
-import { TheFooter } from "../../components/common/Footer/TheFooter";
+import { NextIntlClientProvider, useMessages } from "next-intl";
+import { TheHeader } from "../../../components/common/Header/TheHeader";
+import { TheFooter } from "../../../components/common/Footer/TheFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,11 +14,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
 }) {
+  const messages = useMessages();
   return (
-    <html lang={'ru'}>
+    <html lang={locale}>
       <head>
         <link
           rel="stylesheet"
@@ -28,9 +31,11 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <TheHeader />
-        {children}
-        <TheFooter />
+        <NextIntlClientProvider messages={messages}>
+          <TheHeader />
+          {children}
+          <TheFooter />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

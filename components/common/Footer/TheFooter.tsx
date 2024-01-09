@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./Footer.css"
 
+
 const TheFooter: React.FC = () => {
   return (
     <footer>
