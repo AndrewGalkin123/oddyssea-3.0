@@ -1,6 +1,4 @@
-
 import type { Metadata } from "next";
-import { FloatButton } from "antd";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { TheHeader } from "../../components/common/Header/TheHeader";
@@ -19,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang={'ru'}>
       <head>
         <link
           rel="stylesheet"
@@ -30,11 +28,9 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-       
-          <TheHeader />
-          {children}
-          <TheFooter />
-        
+        <TheHeader />
+        {children}
+        <TheFooter />
       </body>
     </html>
   );

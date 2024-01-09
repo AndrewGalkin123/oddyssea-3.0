@@ -3,15 +3,14 @@
 import { Row, Typography, Divider } from "antd";
 import "./AboutOdessa.css";
 
+
 const AboutOdessaContent: React.FC = () => {
 
-  
-  
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
         <Typography.Title className="title" level={3}>
-          Информация про Одессу
+        
         </Typography.Title>
         <Divider></Divider>
         <div className="content" style={{ maxWidth: "1400px" }}>
