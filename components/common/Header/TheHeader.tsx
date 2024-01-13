@@ -12,6 +12,7 @@ const TheHeader: React.FC = () => {
       <Navigation></Navigation>
       
       <BurgerMenu />
+      
     </header>
   );
 };
