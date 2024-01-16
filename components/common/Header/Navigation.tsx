@@ -1,36 +1,28 @@
-'use client'
+"use client";
 
 import { ConfigProvider, Tabs } from "antd";
 import type { TabsProps } from "antd";
 
 
-
 const items: TabsProps["items"] = [
   {
-    key: "/history",
+    key: `history`,
     label: "История",
+
   },
   {
-    key: "/culture",
+    key: "culture",
     label: "Культура",
+    
   },
   {
-    key: "/photogallery",
+    key: "photogallery",
     label: "Фотогалерея",
+    
   },
 ];
 
-
-
 const Navigation: React.FC = () => {
-
-  
-  const handleTabChange = (key: string) => {
-  
-    window.location.href = key;
-    
-  };
-  
   return (
     <ConfigProvider
       theme={{
@@ -49,11 +41,10 @@ const Navigation: React.FC = () => {
     >
       <Tabs
         className="navigation"
-        style={{width: '80%', margin: '0 auto'}}
+        style={{ width: "80%", margin: "0 auto" }}
         activeKey=""
         size="large"
         centered
-        onChange={(key) => handleTabChange(key)}
         items={items}
       ></Tabs>
     </ConfigProvider>
