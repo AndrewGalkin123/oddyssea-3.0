@@ -2,13 +2,16 @@
 
 import { Row, Typography, Divider } from "antd";
 import "./AboutOdessa.css";
-
+import { useTranslations } from "next-intl";
 
 const AboutOdessaContent: React.FC = () => {
+  const t = useTranslations("Index");
+
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
         <Typography.Title className="title" level={3}>
+          {t("title")}
         </Typography.Title>
         <Divider></Divider>
         <div className="content" style={{ maxWidth: "1400px" }}>
