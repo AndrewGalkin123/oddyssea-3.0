@@ -1,6 +1,8 @@
 import './BurgerMenu.css'
+import { useTranslations } from "next-intl";
 
 const BurgerMenu:React.FC = () => {
+    const t = useTranslations("BurgerMenu");
     return (
         <div className="burger-menu">
         <input id="menu-toggle" type="checkbox" />
@@ -9,15 +11,15 @@ const BurgerMenu:React.FC = () => {
         </label>
 
         <ul className="menubox">
-            <li><a className="menu-item" href="/about"></a></li>
-            <li><a className="menu-item" href="/about-us">Про Oddyssea</a></li>
-            <li><a className="menu-item" href="/about-odessa">Про Одессу</a></li>
-            <li><a className="menu-item" href="/about"></a></li>
-            <li><a className="menu-item" href="#"></a></li>
-            <li><a className="menu-item" href="/contacts"></a></li>
-            <li><a className="menu-item" href="/faq"></a></li>
-            <li><a className="menu-item" href="/termsofuse"></a></li>
-            <li><a className="menu-item" href="/termsofuse"></a></li>
+            <li><a className="menu-item" href="/about">{t("aboutUs")}</a></li>
+            <li><a className="menu-item" href="/about-us">{t("projectHistory")}</a></li>
+            <li><a className="menu-item" href="/about-odessa">{t("informationAboutOdessa")}</a></li>
+            <li><a className="menu-item" href="/about">{t("ourTeam")}</a></li>
+            <li><a className="menu-item" href="#">{t("usefulLinks")}</a></li>
+            <li><a className="menu-item" href="/contacts">{t("feedback")}</a></li>
+            <li><a className="menu-item" href="/faq">{t("frequentlyAskedQuestions")}</a></li>
+            
+      
             
         </ul>
     </div>

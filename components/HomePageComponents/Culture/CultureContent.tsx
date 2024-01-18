@@ -1,5 +1,6 @@
 import { Row, Divider, Typography } from "antd";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
+import { useTranslations } from "next-intl";
 
 const items = [
   {
@@ -45,10 +46,11 @@ const items = [
 ];
 
 const CultureContent: React.FC = () => {
+  const t = useTranslations("Common");
   return (
     <Row>
       <Typography.Title className="title" level={3}>
-        Культура
+      {t("culture")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
       <div className="content" style={{ maxWidth: "1350px" }}>

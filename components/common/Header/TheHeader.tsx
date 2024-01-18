@@ -10,9 +10,7 @@ const TheHeader: React.FC = () => {
         <img id="main-logo" src="/anchor.png" alt="Anchor"></img>
       </a>
       <Navigation></Navigation>
-      
       <BurgerMenu />
-      
     </header>
   );
 };

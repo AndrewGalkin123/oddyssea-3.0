@@ -1,12 +1,14 @@
 import { Row, Col, Typography, Divider } from "antd";
 import "./PhotoGallery.css";
 import RedirectButton from "../../common/RedirectButton/RedirectButton";
+import { useTranslations } from "next-intl";
 
 const PhotoGallery: React.FC = () => {
+  const t = useTranslations("Common");
   return (
     <Row style={{flexDirection: 'column'}}>
       <Typography.Title className="title" level={3}>
-        Фотогалерея
+      {t("photogallery")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
       <div
@@ -63,7 +65,7 @@ const PhotoGallery: React.FC = () => {
         </Row>
        
       </div>
-      <RedirectButton to="/history">Смотреть фотки</RedirectButton>
+      <RedirectButton to="/history">{t("redirectButtonText")}</RedirectButton>
     </Row>
   );
 };

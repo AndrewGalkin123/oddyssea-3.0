@@ -2,27 +2,28 @@
 
 import { ConfigProvider, Tabs } from "antd";
 import type { TabsProps } from "antd";
-
-
-const items: TabsProps["items"] = [
-  {
-    key: `history`,
-    label: "История",
-
-  },
-  {
-    key: "culture",
-    label: "Культура",
-    
-  },
-  {
-    key: "photogallery",
-    label: "Фотогалерея",
-    
-  },
-];
+import { useTranslations } from "next-intl";
 
 const Navigation: React.FC = () => {
+  const handleTabChange = (key: string) => {
+    window.location.href = key;
+  };
+  const t = useTranslations("Common");
+  const items: TabsProps["items"] = [
+    {
+      key: "/history",
+      label: t("history"),
+    },
+    {
+      key: "/culture",
+
+      label: t("culture"),
+    },
+    {
+      key: "/photogallery",
+      label: t("photogallery"),
+    },
+  ];
   return (
     <ConfigProvider
       theme={{
@@ -45,6 +46,7 @@ const Navigation: React.FC = () => {
         activeKey=""
         size="large"
         centered
+        onChange={(key) => handleTabChange(key)}
         items={items}
       ></Tabs>
     </ConfigProvider>

@@ -1,38 +1,41 @@
 import { Row, Divider, Typography } from "antd";
 import { HistoryComponent } from "./HistoryComponent";
-
-const items = [
-  {
-    href: "/",
-    src: "/assets/historyComponent/sailorWife.jpeg",
-    title: "",
-    info: "",
-  },
-  {
-    href: "/",
-    src: "/assets/historyComponent/lighthouse.jpg",
-    title: "",
-    info: "",
-  },
-  {
-    href: "/",
-    src: "/assets/historyComponent/pavelCathedral.jpg",
-    title: "",
-    info: "",
-  },
-  {
-    href: "/",
-    src: "/assets/historyComponent/opera.jpg",
-    title: "",
-    info: "",
-  },
-];
+import { useTranslations } from "next-intl";
+import RedirectButton from "../../common/RedirectButton/RedirectButton";
 
 const HistoryContent: React.FC = () => {
+  const t = useTranslations("Common");
+  const info = useTranslations("HomePageHistory");
+  const items = [
+    {
+      href: "/",
+      src: "/assets/historyComponent/sailorWife.jpeg",
+      title: info("sailor'sWife"),
+      info: info("sailor'sWifeInfo"),
+    },
+    {
+      href: "/",
+      src: "/assets/historyComponent/lighthouse.jpg",
+      title: info("lighthouse"),
+      info: info("lighthouseInfo"),
+    },
+    {
+      href: "/",
+      src: "/assets/historyComponent/pavelCathedral.jpg",
+      title: info("lutheranChurch"),
+      info: info("lutheranChurchInfo"),
+    },
+    {
+      href: "/",
+      src: "/assets/historyComponent/opera.jpg",
+      title: info("theaterGarden"),
+      info: info("theaterGardenInfo"),
+    },
+  ];
   return (
-    <Row>
+    <Row style={{flexDirection: 'column'}}>
       <Typography.Title className="title" level={3}>
-        История
+        {t("history")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
       <div
@@ -48,14 +51,17 @@ const HistoryContent: React.FC = () => {
       >
         {items.map((item) => (
           <HistoryComponent
-            key={item.src}
+            key={item.title}
             href={item.href}
             src={item.src}
             title={item.title}
             info={item.info}
+          
           />
         ))}
       </div>
+    
+      <RedirectButton to="/history">{t("redirectButtonText")}</RedirectButton>
     </Row>
   );
 };

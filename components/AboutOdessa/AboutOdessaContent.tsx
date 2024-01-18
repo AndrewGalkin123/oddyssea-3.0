@@ -5,7 +5,7 @@ import "./AboutOdessa.css";
 import { useTranslations } from "next-intl";
 
 const AboutOdessaContent: React.FC = () => {
-  const t = useTranslations("Index");
+  const t = useTranslations("AboutOdessa");
 
   return (
     <main style={{ padding: "100px 0px" }}>
@@ -19,49 +19,22 @@ const AboutOdessaContent: React.FC = () => {
             <img className="odessa-flag" src="/assets/odessaFlag.png"></img>
             <br></br>
             <div className="text">
-              <p></p>
+
+              <p>{t("welcomeToOdessa")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("odessaHistory")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("websiteDescription")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("artAndCulture")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("gastronomicDelights")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("promenadeAlongTheSeaside")}</p>
+            
+              <p>{t("oddysseaGuide")}</p>
               <br></br>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis incidunt rem expedita nobis temporibus mollitia
-                saepe, recusandae ratione error architecto animi rerum quis,
-                unde quos accusamus excepturi vero ipsa impedit.
-              </p>
+              <p>{t("welcomeToOdessaInspiration")}</p>
               <br></br>
             </div>
           </div>

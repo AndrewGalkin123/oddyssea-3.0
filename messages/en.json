@@ -1,5 +1,53 @@
 {
-    "Index": {
-      "title": "Hello world!"
-    }
+  "Common": {
+    "redirectButtonText": "See all photos",
+    "history": "History",
+    "culture": "Culture",
+    "photogallery": "Photo Gallery"
+  },
+
+  "AboutOdessa": {
+    "title": "Information About Odessa",
+    "welcomeToOdessa": "Welcome to Odessa, the pearl of the Black Sea! This unique city, with its rich history and distinctive atmosphere, invites you to an exciting journey full of discoveries and impressions.",
+    "odessaHistory": "Odessa's history spans centuries, and every corner of the city reflects its own episode of this rich history. A walk through the historic center takes you back to the times of grand buildings, narrow alleys, and romantic courtyards. Odessa Opera House, Potemkin Stairs, and Deribasovskaya Street - each landmark tells its fascinating story.",
+    "websiteDescription": "Our website Oddyssea is designed to help you uncover all the secrets and charms of Odessa. We have gathered the most useful and interesting information about the city - from its historical landmarks to cozy cafes and restaurants, from local traditions and culture to beautiful beaches and entertainment.",
+    "artAndCulture": "Odessa is also a city of art and culture. Museums, galleries, exhibitions, theaters - here everyone will find something to their liking. Immerse yourself in the world of art, visit exhibitions of contemporary artists, or enjoy an opera performance in one of the most beautiful theaters in the country.",
+    "gastronomicDelights": "Don't miss the opportunity to explore the gastronomic delights of Odessa. The local cuisine will impress you with a variety of flavors and aromas. Try exquisite fish dishes, fresh seafood, and authentic Odessa delicacies. In the city's restaurants and cafes, you can taste unique dishes and enjoy the hospitality of Odessa cuisine.",
+    "promenadeAlongTheSeaside": "Take a stroll along the Primorsky Boulevard, enjoying the beautiful views of the Black Sea and the architecture of old buildings. Visit local shops, where you will find unique souvenirs and products reflecting the spirit of Odessa.",
+    "oddysseaGuide": "Oddyssea is your guide on this exciting journey through Odessa. On our website, you will find useful information about the city, landmarks, travel tips, cultural events, and much more. We have gathered the most interesting places, unique photographs, and inspiring stories to help you fully immerse yourself in the atmosphere of Odessa.",
+    "welcomeToOdessaInspiration": "Welcome to Odessa, a city that will not only be your destination but also a source of inspiration and unforgettable experiences. Get ready for incredible discoveries and adventures with Oddyssea!"
+  },
+  "AboutOddyssea": {
+    "projectOddyssea": "Project Oddyssea",
+    "welcomeMessage": "Welcome to the world of Oddyssea - your virtual guide to the amazing city of Odessa! We have created this website to share with you the rich history, unique culture, and captivating charm of this city.",
+    "whyChooseOddyssea": "● Why choose Oddyssea?",
+    "virtualExperience": "With us, you will find everything you need for an exciting journey through Odessa without leaving your home. We offer you a unique virtual travel experience that saves your time and money. You can explore the history and culture of Odessa, visit landmarks, and immerse yourself in the city's atmosphere without leaving your chair. With a user-friendly interface and detailed materials, you will gain maximum information about every corner of Odessa. We also provide recommendations and tips to make your physical journey through the city even more interesting and fulfilling.",
+    "understandYourNeeds": "● We understand your needs:",
+    "personalizedRoutes": "We realize that each person has their own interests and challenges when planning trips. You may have limited time and want to make the most of it during your visit. You may find it difficult to choose from Odessa's rich cultural heritage what suits you personally. We are ready to assist you in such situations. Oddyssea offers unique curated routes and guides tailored to various interests and preferences. We provide information about museums, historical sites, architectural landmarks, restaurants, and entertainment venues, so you can choose exactly what meets your expectations and preferences.",
+    "startVirtualJourney": "● Are you ready to start your virtual journey through Odessa?",
+    "contactUs": "Contact us to get more information or consultation from our team. You can also leave your phone number or ask any questions using the feedback form on our website. We are always ready to help you choose routes, provide recommendations on the best places to visit, and share our knowledge about Odessa. Don't miss the opportunity to embark on an exciting virtual journey and experience the atmosphere of Odessa right now!",
+    "projectHistory": "Project history",
+    "inspiredByOdessa": "Inspired by the unique atmosphere of Odessa, the history of this city and its cultural heritage, we decided to make this experience accessible to everyone. We wanted to create a virtual platform which will allow people from anywhere in the world to immerse themselves in the world of Odessa, learn its history, enrich themselves with knowledge and experience its unique atmosphere without leaving home.",
+    "researchAndConsultation": "We have conducted numerous studies, turned to historical and cultural experts, and also consulted with local residents to create a full-fledged virtual guide to Odessa.And today, thanks to our efforts,Oddyssea provides a unique opportunity to immerse yourself in the wonderful world of Odessa and expand your horizons.",
+    "joinUsOnOddyssea": "Join us at Oddyssea and be part of our virtual journey through the city of Odessa.Embark on amazing adventures and discover everything that makes this city so special.We look forward to your participation and the opportunity to help you create unforgettable memories about your virtual trip to Odessa."
+  },
+  "BurgerMenu": {
+    "aboutUs": "About Us",
+    "projectHistory": "Project History",
+    "informationAboutOdessa": "Information About Odessa",
+    "ourTeam": "Our Team",
+    "usefulLinks": "Useful Links",
+    "feedback": "Contact us",
+    "frequentlyAskedQuestions": "Questions and answers (FAQ)"
+  },
+  "HomePageHistory": {
+    "lutheranChurch": "Lutheran Church",
+    "lutheranChurchInfo": "The greatness of faith and architectural splendor. St. Paul's Cathedral in Odessa is not only a religious center, but also a symbol of the city's historical and cultural heritage, delighting visitors with its majesty and unique architecture.",
+    "sailor'sWife": "Monument to the sailor's wife",
+    "sailor'sWifeInfo": "A touching love story embodied in bronze. This magnificent sculpture symbolizes the devotion and strength of a woman waiting for the sailor's return. Look into the eyes of this statue and feel the magic and emotional attachment it conveys.",
+    "lighthouse": "Vorontsov lighthouse",
+    "lighthouseInfo": "Historical symbol and maritime landmark. This lighthouse, built in the 19th century, provides an unforgettable view of the Black Sea. It serves as a landmark for navigators and inspires visitors with its beauty and romance of the sea atmosphere.",
+    "theaterGarden": "Theater garden",
+    "theaterGardenInfo": "Unique oasis greenery in the city center. This beautiful park is a place of recreation and cultural events. Here you can walk among the beautiful fountains, enjoy theatrical performances and tune in to the wave of art."
   }
+}
