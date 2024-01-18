@@ -33,7 +33,7 @@ const RootLayout: React.FC<Props> = ({ children, params: {locale} }) => {
         />
       </head>
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider  messages={messages}>
           <TheHeader />
           {children}
           <TheFooter />

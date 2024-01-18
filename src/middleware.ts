@@ -6,13 +6,15 @@ const nextIntlMiddleware = createMiddleware({
 
   // Used when no locale matches
   defaultLocale: "ru",
+
+
 });
 
-export default function (req: NextRequest):NextResponse {
-  return nextIntlMiddleware(req)
+export default function (req: NextRequest): NextResponse {
+  return nextIntlMiddleware(req);
 }
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ["/", "/(ru|en|uk)/:path*"],
+  matcher: ['/((?!api|_next|.*\\..*).*)']
 };
