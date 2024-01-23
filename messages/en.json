@@ -49,5 +49,32 @@
     "lighthouseInfo": "Historical symbol and maritime landmark. This lighthouse, built in the 19th century, provides an unforgettable view of the Black Sea. It serves as a landmark for navigators and inspires visitors with its beauty and romance of the sea atmosphere.",
     "theaterGarden": "Theater garden",
     "theaterGardenInfo": "Unique oasis greenery in the city center. This beautiful park is a place of recreation and cultural events. Here you can walk among the beautiful fountains, enjoy theatrical performances and tune in to the wave of art."
+  },
+  "FAQ": {
+    "frequentlyAskedQuestions": "Most frequently asked questions",
+    "question1": "What is Oddyssea?",
+    "answer1": "Oddyssea is an online platform dedicated to the city of Odessa. We offer information about history, culture, sights and atmosphere of the city.",
+    "question2": "What is the purpose of Oddyssea?",
+    "answer2": "Our goal is to provide visitors with all the information they need about Odessa to help them plan their trip, study history and culture of the city, as well as enjoy the unique atmosphere Odessa.",
+    "question3": "How can I use Oddyssea?",
+    "answer3": "You can use Oddyssea for information about sights of Odessa, acquaintance with historical facts, learning about local culture, viewing photos andother materials, as well as to plan your trip to Odessa.",
+    "question4": "I want to know more about a particular attraction. Where can I find detailed information?",
+    "answer4": "On our site you will find separate pages for each attraction, where detailed information, photos, history and other interesting facts.Select the attraction you are interested in and go to the corresponding page.",
+    "question5": "I have my own photos of Odessa. Can I share them on Oddyssea?",
+    "answer5": "Certainly! We'd love to see your input. You can send your photos of Odessa to our email oddyssea@gmail.com with your name and a brief description of the photos. We will consider the possibility posting them on the site.",
+    "question6": "How can I contact the Oddyssea team?",
+    "answer6": "If you have questions, suggestions or feedback, you can contact us, by filling out the feedback form on our website. We will try to answer you as soon as possible.",
+    "question7": "What information is available on the 'History of Odessa' page?",
+    "answer7": "On the page 'History of Odessa' you will find fascinating stories about the past of the city, its foundation, key events, famous people and much more. We try to present the history of Odessa in an interesting and accessible way.",
+    "question8": "I am planning a trip to Odessa. What places are worth visiting?",
+    "answer8": "We have compiled a list of recommended places to visit in Odessa. On the 'Photo gallery. Best Collections' page you will find information about the most popular attractions, parks, beaches, museums and other interesting places worth visiting during your trip.",
+    "question9": "I want to share my experience about visiting Odessa. How can I do it?",
+    "answer9": "We are always happy to hear feedback and stories about trips to Odessa. You can send your feedback to our email oddyssea@gmail.com or on the feedback form indicating your name and your experience. We may publish your review on our website.",
+    "question10": "What languages ​​are available on Oddyssea?",
+    "answer10": "Our content is available in multiple languages, including English, Ukrainian and Russian. You can select your preferred language on the site.",
+    "question11": "What museums are worth visiting in Odessa?",
+    "answer11": "There are many interesting museums in Odessa, including the Odessa Literary Museum, the Museum of the History of Odessa, Art Museum and others. We provide information about each museum, its exhibits and opening hours.",
+    "question12": "Which beaches in Odessa can I visit?",
+    "answer12": "There are many beaches in Odessa, including Lanzheron, Arcadia, Dolphin, Gold Coast and others. On our website you will find detailed information about each beach, its location, conditions and amenities."
   }
 }
