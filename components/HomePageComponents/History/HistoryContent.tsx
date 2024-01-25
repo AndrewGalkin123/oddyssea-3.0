@@ -3,6 +3,7 @@ import { HistoryComponent } from "./HistoryComponent";
 import { useTranslations } from "next-intl";
 import RedirectButton from "../../common/RedirectButton/RedirectButton";
 
+
 const HistoryContent: React.FC = () => {
   const t = useTranslations("Common");
   const info = useTranslations("HomePageHistory");
@@ -14,7 +15,7 @@ const HistoryContent: React.FC = () => {
       info: info("sailor'sWifeInfo"),
     },
     {
-      href: "/",
+      href: "/history",
       src: "/assets/historyComponent/lighthouse.jpg",
       title: info("lighthouse"),
       info: info("lighthouseInfo"),
@@ -60,7 +61,7 @@ const HistoryContent: React.FC = () => {
           />
         ))}
       </div>
-    
+        
       <RedirectButton to="/history">{t("redirectButtonText")}</RedirectButton>
     </Row>
   );
