@@ -1,16 +1,46 @@
-"use client"
-import Link from "next/link";
+"use client";
+
+import React, { useState } from "react";
 
 const LanguageSwitcher: React.FC = () => {
+  const [currentLanguage, setCurrentLanguage] = useState<string>("ru");
+  let content = "";
+  if (currentLanguage === "ru") {
+    content = "UK";
+  } else if (currentLanguage === "uk") {
+    content = "EN";
+  } else {
+    content = "RU";
+  }
 
+  const handleTranslate = () => {
+    switch (currentLanguage) {
+      case "ru":
+        window.location.href = "/uk";
+        setCurrentLanguage("uk");
+        break;
+      case "uk":
+        window.location.href = "/en";
+        setCurrentLanguage("en");
+        break;
+      case "en":
+        window.location.href = "/ru";
+        setCurrentLanguage("ru");
+        break;
+      default:
+        setCurrentLanguage("ru");
+        break;
+    }
+  };
 
   return (
     <div>
-       <Link href="/uk">Switch to UK</Link>
-       <Link href="/ru">Switch to RU</Link>
-       <Link href="/en">Switch to EN</Link>
+      <button className="translator-button" onClick={handleTranslate}>
+        {content}
+      </button>
     </div>
   );
 };
 
 export default LanguageSwitcher;
+
