@@ -4,14 +4,7 @@ import React, { useState } from "react";
 
 const LanguageSwitcher: React.FC = () => {
   const [currentLanguage, setCurrentLanguage] = useState<string>("ru");
-  let content = "";
-  if (currentLanguage === "ru") {
-    content = "UK";
-  } else if (currentLanguage === "uk") {
-    content = "EN";
-  } else {
-    content = "RU";
-  }
+  
 
   const handleTranslate = () => {
     switch (currentLanguage) {
@@ -35,12 +28,13 @@ const LanguageSwitcher: React.FC = () => {
 
   return (
     <div>
-      <button className="translator-button" onClick={handleTranslate}>
-        {content}
-      </button>
+       <button className="translator-button" onClick={handleTranslate}>{currentLanguage === "ru"
+        ? "UK"
+        : currentLanguage === "uk"
+          ? "EN"
+          : "RU"}</button>
     </div>
   );
 };
 
 export default LanguageSwitcher;
-
