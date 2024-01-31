@@ -1,18 +1,15 @@
-import React, { MutableRefObject } from 'react';
+import React, { forwardRef } from 'react';
 
-interface HistoryHelpButtonsProps{
-  ref: MutableRefObject<null>;
+interface HistoryHelpButtonsProps {
+  onClick: () => void;
 }
 
-const HistoryHelpButtons: React.FC<HistoryHelpButtonsProps> = ({ ref }) => {
-  const handleScrollButtonClick = () => {
-
-      ref.current.scrollIntoView({ behavior: "smooth" });
-    
-  };
+const HistoryHelpButtons: React.FC<HistoryHelpButtonsProps> = ({ onClick }) => {
   return (
-    <div >
-      <button className="scroll-button" onClick={handleScrollButtonClick}>Читать текст</button>
+    <div>
+      <button className="scroll-button" onClick={onClick}>
+        Читать текст
+      </button>
       <a href="/contacts">
         <button className="redirect-button">Share emotions</button>
       </a>
@@ -20,4 +17,4 @@ const HistoryHelpButtons: React.FC<HistoryHelpButtonsProps> = ({ ref }) => {
   );
 };
 
-export { HistoryHelpButtons };
+export  {HistoryHelpButtons};

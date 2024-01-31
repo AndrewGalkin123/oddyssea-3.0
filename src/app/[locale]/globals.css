@@ -51,6 +51,37 @@ main {
     background-color: #4371c1;
 }
 
+.otherContent {
+  border: 2px solid #b2b5ba;
+  min-width: 350px;
+  width: 400px;
+  height: 1110px;
+  margin-top: 40px;
+  border-radius: 3px;
+  background-color: #e2e5ed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.otherContent .photo_item {
+  margin-right: 0;
+}
+
+.otherContent .title {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.photo-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
 
 @media screen and (max-width: 900px) {
   .location {
@@ -62,6 +93,10 @@ main {
   .textContent h1 {
     font-size: 26px;
   }
+  .otherContent {
+    width: 94%;
+    margin: 0 auto;
+}
 }
 
 @media screen and (max-height: 420px) {
