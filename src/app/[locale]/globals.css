@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 main {
@@ -14,4 +15,57 @@ main {
 
 .title {
   margin: 0 auto;
+}
+
+.location {
+  width: 100%;
+  height: 800px;
+}
+
+.textContent {
+  width: 800px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.scroll-button,
+.redirect-button {
+    float: right;
+    margin-left: 10px;
+    width: 175px;
+    height: 35px;
+    background-color: #214e9c;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+
+.scroll-button:hover,
+.redirect-button:hover {
+    cursor: pointer;
+    background-color: #4371c1;
+}
+
+
+@media screen and (max-width: 900px) {
+  .location {
+    height: 550px;
+  }
+  .textContent {
+    width: 94%;
+  }
+  .textContent h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .location {
+    height: 250px;
+  }
 }

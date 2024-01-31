@@ -25,49 +25,6 @@ const items = [
     src: "/assets/historycomponent/opera.jpg",
     title: "sda",
   },
-
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-
-
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
-  {
-    href: "",
-    src: "/assets/historycomponent/opera.jpg",
-    title: "sda",
-  },
   {
     href: "",
     src: "/assets/historycomponent/opera.jpg",
