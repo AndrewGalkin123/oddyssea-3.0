@@ -35,12 +35,20 @@ const HistoryPageContent: React.FC = () => {
           <br></br>
           <h1>Title</h1>
           <p>Lore</p>
+          <br />
+          <img></img>
+          <p>Lore</p>
+          <br />
+          <img></img>
+          <p>Lore</p>
+          <p>Lore</p>
+          <br />
+          <img></img>
+          <p>Lore</p>
         </div>
         <div className="otherContent">
           <p></p>
-          <div className="photo-item-container">
-            {/* <RedirectBlock/> */}
-          </div>
+          <div className="photo-item-container">{/* <RedirectBlock/> */}</div>
         </div>
       </div>
     </div>
