@@ -1,10 +1,10 @@
-import { HistoryPageContent } from "../../../../../components/HistoryPageComponents/HistoryHelpButtons/SightPageContent";
+import { SightPageContent } from "../../../../../components/SightPageComponents/SightPageContent";
 
 
 export default function SightPage(){
     return(
         <main style={{padding: '60px 0px'}}>
-            <HistoryPageContent/>
+            <SightPageContent/>
         </main>
     )
 }

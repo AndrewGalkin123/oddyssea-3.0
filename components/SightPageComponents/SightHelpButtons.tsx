@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 
-interface HistoryHelpButtonsProps {
+interface SightHelpButtonsProps {
   onClick: () => void;
 }
 
-const HistoryHelpButtons: React.FC<HistoryHelpButtonsProps> = ({ onClick }) => {
+const SightHelpButtons: React.FC<SightHelpButtonsProps> = ({ onClick }) => {
   return (
     <div>
       <button className="scroll-button" onClick={onClick}>
@@ -17,4 +17,4 @@ const HistoryHelpButtons: React.FC<HistoryHelpButtonsProps> = ({ onClick }) => {
   );
 };
 
-export  {HistoryHelpButtons};
+export  {SightHelpButtons};

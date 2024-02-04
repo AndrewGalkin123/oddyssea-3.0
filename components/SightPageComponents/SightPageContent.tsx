@@ -1,9 +1,9 @@
 "use client";
 import { MutableRefObject, useRef } from "react";
-import { HistoryHelpButtons } from "./SightHelpButtons";
-import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
+import { SightHelpButtons } from "./SightHelpButtons";
+import { RedirectBlock } from "../common/MainRedirectBlock/RedirectBlock";
 
-const HistoryPageContent: React.FC = () => {
+const SightPageContent: React.FC = () => {
   const textContentRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   const handleScrollButtonClick = (): void => {
@@ -18,7 +18,7 @@ const HistoryPageContent: React.FC = () => {
         src="https://www.google.com/maps/embed?pb=!4v1690799078512!6m8!1m7!1sCAoSLEFGMVFpcE1oUmJ6WHRHdUJUSVVMZU5rbklZZUh5YzVkMDNCZUVyT29hSk9u!2m2!1d46.485071!2d30.7439437!3f4.180024503728842!4f2.3371492776826983!5f0.7820865974627469"
         loading="lazy"
       ></iframe>
-      <HistoryHelpButtons onClick={handleScrollButtonClick} />
+      <SightHelpButtons onClick={handleScrollButtonClick} />
       <div
         className="content"
         style={{
@@ -55,4 +55,4 @@ const HistoryPageContent: React.FC = () => {
   );
 };
 
-export { HistoryPageContent };
+export { SightPageContent };
