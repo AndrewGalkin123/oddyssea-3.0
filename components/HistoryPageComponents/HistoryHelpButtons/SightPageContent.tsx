@@ -1,6 +1,6 @@
 "use client";
 import { MutableRefObject, useRef } from "react";
-import { HistoryHelpButtons } from "./HistoryHelpButtons";
+import { HistoryHelpButtons } from "./SightHelpButtons";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 
 const HistoryPageContent: React.FC = () => {
@@ -33,7 +33,7 @@ const HistoryPageContent: React.FC = () => {
         <div className="textContent" ref={textContentRef}>
           <br></br>
           <br></br>
-          <h1>Title</h1>
+          <h1></h1>
           <p>Lore</p>
           <br />
           <img></img>
