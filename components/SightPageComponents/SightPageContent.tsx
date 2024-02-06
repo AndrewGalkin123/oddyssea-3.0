@@ -1,11 +1,10 @@
 "use client";
 import { MutableRefObject, useRef } from "react";
 import { SightHelpButtons } from "./SightHelpButtons";
-import { RedirectBlock } from "../common/MainRedirectBlock/RedirectBlock";
 
 const SightPageContent: React.FC = () => {
   const textContentRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
-
+  
   const handleScrollButtonClick = (): void => {
     if (textContentRef.current) {
       textContentRef.current.scrollIntoView({ behavior: "smooth" });
