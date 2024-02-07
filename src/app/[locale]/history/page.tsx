@@ -15,6 +15,26 @@ const items = [
     src: "/assets/historycomponent/opera.jpg",
     title: "sda",
   },
+  {
+    href: `history/amusement-park`,
+    src: "/assets/historycomponent/opera.jpg",
+    title: "sda",
+  },
+  {
+    href: "history/vorontsovsky-lighthouse",
+    src: "/assets/historycomponent/opera.jpg",
+    title: "sda",
+  },
+  {
+    href: `history/paul-church`,
+    src: "/assets/historycomponent/opera.jpg",
+    title: "sda",
+  },
+  {
+    href: "history/sailor-wife",
+    src: "/assets/historycomponent/opera.jpg",
+    title: "sda",
+  },
   // Add other items with dynamic href values...
 ];
 

@@ -82,5 +82,17 @@
   },
   "theater-garden": {
     "title": "Theater Garden in Odessa: Where History Comes Alive"
+  },
+  "amusement-park": {
+    "title": "Lunapark Odessa"
+  },
+  "vorontsovsky-lighthouse": {
+    "title": "Vorontsov Lighthouse: Majestic Guardian of Odessa's Coast"
+  },
+  "paul-church": {
+    "title": "St. Paul's Church in Odessa: Grandeur of Architecture and Spirituality"
+  },
+  "sailor-wife": {
+    "title" : "Monument of 'The Sailor's Wife' in Odessa"
   }
 }
