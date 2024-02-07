@@ -3,11 +3,13 @@ import { SightPageContent } from "../../../../../components/SightPageComponents/
 import { usePathname } from 'next/navigation';
 
 export default function SightPage(){
-    const path = usePathname()
-    console.log(path)
+    const path = usePathname().split("/")
+    
+    
+    
     return(
         <main style={{padding: '60px 0px'}}>
-            <SightPageContent/>
+            <SightPageContent sight={path[path.length-1]}/>
         </main>
     )
 }

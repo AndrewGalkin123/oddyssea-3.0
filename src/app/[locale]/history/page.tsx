@@ -6,12 +6,12 @@ import { Row, Col, FloatButton } from "antd";
 
 const items = [
   {
-    href: `history/12`,
+    href: `history/archaeological-museum`,
     src: "/assets/historycomponent/opera.jpg",
     title: "sda",
   },
   {
-    href: "/history/sight/someOtherDynamicValue",
+    href: "history/theater-garden",
     src: "/assets/historycomponent/opera.jpg",
     title: "sda",
   },

@@ -1,9 +1,17 @@
 "use client";
 import { MutableRefObject, useRef } from "react";
 import { SightHelpButtons } from "./SightHelpButtons";
+import { useTranslations } from "next-intl";
 
-const SightPageContent: React.FC = () => {
+
+interface SightPageContentProps {
+  sight: string;
+}
+
+const SightPageContent: React.FC<SightPageContentProps> = ({ sight }) => {
   const textContentRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+
+  const t = useTranslations(sight);
   
   const handleScrollButtonClick = (): void => {
     if (textContentRef.current) {
@@ -32,7 +40,7 @@ const SightPageContent: React.FC = () => {
         <div className="textContent" ref={textContentRef}>
           <br></br>
           <br></br>
-          <h1></h1>
+          <h1>{t("title")}</h1>
           <p>Lore</p>
           <br />
           <img></img>
