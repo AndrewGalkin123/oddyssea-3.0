@@ -3,7 +3,35 @@
     "redirectButtonText": "Дивитись всі фото",
     "history": "Історія",
     "culture": "Культура",
-    "photogallery": "Фотогалерея"
+    "photogallery": "Фотогалерея",
+    "readTextButton": "Читати статтю",
+    "shareEmotionsButton": "Поділитися емоціями",
+    "otherContentTitle": "Радимо переглядати",
+    "lunapark": "Лунапарк",
+    "vorontsovLighthouse": "Воронцовський маяк",
+    "theaterGarden": "Театральний сад",
+    "stPaulChurch": "Церква святого Павла",
+    "sailor'sWife": "Пам'ятник дружині моряка",
+    "opera": "Оперний Театр",
+    "potemkinStairs": "Потьомкінська сходинка",
+    "dukeMonument": "Пам'ятник Герцогу де Рішельє",
+    "vorontsovPalace": "Воронцовський палац",
+    "pushkinMonument": "Пам'ятник А.С.Пушкіну",
+    "odessaPassage": "Пасаж",
+    "victoryWings": "Крила Перемоги",
+    "victoryPark": "Парк Перемоги",
+    "vorontsovMonument": "Пам'ятник Михайлу Воронцову",
+    "shahskyPalace": "Шахський палац",
+    "shevchenkoPark": "Парк Шевченка",
+    "deribasovskayaStreet": "Дерибасівська вулиця",
+    "seasideBoulevard": "Приморський бульвар",
+    "odessaArchaeologicalMuseum": "Одеський Археологічний Музей",
+    "deribasovskayaСityPark": "Міський парк на вулиці Дерібасівській",
+    "lanzheron": "Пляж Ланжерон",
+    "dumskaSquare": "Думська площа",
+    "defenseMonument": "Пам'ятник обороні",
+    "artMuseum": "Одеський національний художній музей",
+    "spasoPreobrazhenskyCathedral": "Спасо-Преображенський Собор у Одесі"
   },
 
   "AboutOdessa": {
@@ -92,8 +120,7 @@
   "paul-church": {
     "title": "Церква святого Павла у Одесі: Велич архітектури та духовності"
   },
-   "sailor-wife": {
-    "title" : "Пам'ятник 'Дружина моряка' у Одесі"
+  "sailor-wife": {
+    "title": "Пам'ятник 'Дружина моряка' у Одесі"
   }
-  
 }

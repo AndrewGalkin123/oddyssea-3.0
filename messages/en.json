@@ -3,7 +3,35 @@
     "redirectButtonText": "See all photos",
     "history": "History",
     "culture": "Culture",
-    "photogallery": "Photo Gallery"
+    "photogallery": "Photo Gallery",
+    "readTextButton": "Read article",
+    "shareEmotionsButton": "Share emotions",
+    "otherContentTitle": "Recommended for viewing",
+    "lunapark": "Lunapark",
+    "vorontsovLighthouse": "Vorontsov Lighthouse",
+    "theaterGarden": "Theater garden",
+    "stPaulChurch": "St. Paul's Church",
+    "sailor'sWife": "Monument to the sailor's wife",
+    "opera": "Opera theatre",
+    "potemkinStairs": "Potemkin Stairs",
+    "dukeMonument": "Monument to Duke de Richelieu",
+    "vorontsovPalace": "Vorontsov Palace",
+    "pushkinMonument": "Monument to A.S. Pushkin",
+    "odessaPassage": "Passage",
+    "victoryWings": "Wings of Victory",
+    "victoryPark": "Park of Victory",
+    "vorontsovMonument": "Mikhail Vorontsov Monument",
+    "shahskyPalace": "Shahsky Palace",
+    "shevchenkoPark": "Shevchenko Park",
+    "deribasovskayaStreet": "Deribasivska Street",
+    "seasideBoulevard": "Seaside Boulevard",
+    "odessaArchaeologicalMuseum": "Odessa Archaeological Museum",
+    "deribasovskayaСityPark": "City Park on Deribasovskaya Street",
+    "lanzheron": "Lanzheron Beach",
+    "dumskaSquare": "Dumska Square",
+    "defenseMonument": "Defense Monument",
+    "artMuseum": "Odessa National Art Museum",
+    "spasoPreobrazhenskyCathedral": "Spaso-Preobrazhensky Cathedral in Odessa"
   },
 
   "AboutOdessa": {
@@ -93,6 +121,6 @@
     "title": "St. Paul's Church in Odessa: Grandeur of Architecture and Spirituality"
   },
   "sailor-wife": {
-    "title" : "Monument of 'The Sailor's Wife' in Odessa"
+    "title": "Monument of 'The Sailor's Wife' in Odessa"
   }
 }
