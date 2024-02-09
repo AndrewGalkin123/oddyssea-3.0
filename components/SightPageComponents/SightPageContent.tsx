@@ -41,17 +41,18 @@ const SightPageContent: React.FC<SightPageContentProps> = ({ sight }) => {
           <br></br>
           <br></br>
           <h1>{t("title")}</h1>
-          <p>Lore</p>
+          <p>{t("paragraph#1")}</p>
           <br />
           <img></img>
-          <p>Lore</p>
+          <p>{t("paragraph#2")}</p>
+          <p>{t("paragraph#3")}</p>
+          <br/>
+          <p>{t("paragraph#4")}</p>
+          <p>{t("paragraph#5")}</p>
           <br />
           <img></img>
-          <p>Lore</p>
-          <p>Lore</p>
-          <br />
-          <img></img>
-          <p>Lore</p>
+          <p>{t("paragraph#6")}</p>
+          <p>{t("paragraph#7")}</p>
         </div>
         <div className="otherContent">
           <p></p>
