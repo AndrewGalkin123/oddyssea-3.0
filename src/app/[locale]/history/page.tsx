@@ -103,11 +103,6 @@ export default function History() {
       title: t("seasideBoulevard"),
     },
     {
-      href: "history/odessa-archaeological-museum",
-      src: "/assets/historycomponent/opera.jpg",
-      title: t("odessaArchaeologicalMuseum"),
-    },
-    {
       href: "history/deribasovskaya-city-park",
       src: "/assets/historycomponent/opera.jpg",
       title: t("deribasovskayaСityPark"),
