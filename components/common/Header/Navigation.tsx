@@ -42,7 +42,7 @@ const Navigation: React.FC = () => {
     >
       <Tabs
         className="navigation"
-        style={{ width: "80%", margin: "0 auto" }}
+        style={{ width: "30%", margin: "0 auto" }}
         activeKey=""
         size="large"
         centered

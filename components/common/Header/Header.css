@@ -1,73 +1,83 @@
 header {
-    position: fixed;
-    background-color: rgb(19, 69, 115);
-    background-position: bottom;
-    background-size: cover;
-    color: #fff;
-    height: 60px;
-    width: 100%;
-    display: block;
-    z-index: 9;
-
+  position: fixed;
+  background-color: rgb(19, 69, 115);
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  display: block;
+  z-index: 9;
 }
-
 
 #main-logo {
-    position: absolute;
+  position: absolute;
 
-    left: 5px;
-    top: 4px;
-    height: 50px;
-    width: 50px;
+  left: 5px;
+  top: 4px;
+  height: 50px;
+  width: 50px;
 }
-
-
 
 @media screen and (max-width: 990px) {
-    .navigation {
-        display: none;
-    }
+  .navigation {
+    display: none;
+  }
 }
 
-.translator-button {
-    position: absolute;
-    top: 50%;
-    right: 105px;
-    transform: translateY(-50%);
-    height: 40px;
-    width: 40px;
-    color: #fff;
-    font-size: 17px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 4px;
+.translator-buttons {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+  width: 130px;
+  color: #fff;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
 
-.translator-button:hover {
-    background-color: #38b434;
+.language-switcher {
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
 }
 
+
+
+.language-switcher:not(:last-child) {
+  margin-right: 15px;
+}
+
+.language-switcher:hover {
+  background-color: #38b434;
+}
 
 .contacts-info {
-    position: absolute;
-    right: 65px;
-    top: 10px;
-    width: 40px;
-    height: 40px;
-
+  position: absolute;
+  right: 65px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 .contacts-info:hover {
-    background-color: #38b434;
-    border-radius: 4px;
+  background-color: #38b434;
+  border-radius: 4px;
 }
 
 .contacts-info img {
-
-    width: 40px;
-    height: 40px;
-
+  width: 40px;
+  height: 40px;
 }

@@ -1,6 +1,7 @@
 import { Navigation } from "./Navigation";
 import "./Header.css";
 import { BurgerMenu } from "./BurgerMenu/BurgerMenu";
+import LanguageSwitcher from "./LanguageSwitcher/LanguageSwitcher";
 
 
 const TheHeader: React.FC = () => {
@@ -9,9 +10,11 @@ const TheHeader: React.FC = () => {
       <a href="/">
         <img id="main-logo" src="/anchor.png" alt="Anchor"></img>
       </a>
-      <Navigation></Navigation>
       
+      <Navigation></Navigation>
+      <LanguageSwitcher/>
       <BurgerMenu />
+     
     </header>
   );
 };
