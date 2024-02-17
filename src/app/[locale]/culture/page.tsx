@@ -2,13 +2,17 @@
 import { Row, Col } from "antd";
 import { ContentMenu } from "../../../../components/CulturePageComponents/ContentMenu/ContentMenu";
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";
-import { useTranslations } from "next-intl";
+import { useState } from "react";
+
 
 export default function Culture() {
-  const handleMenuItemClick = (key: string) => {
-    return key;
+  const [contentKey , setContentKey] = useState("Eclecticism")
+  const  handleMenuItemClick = (key: string) => {
+   
+    setContentKey(key)
+    
   };
-  const t = useTranslations(handleMenuItemClick);
+ 
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
@@ -17,13 +21,9 @@ export default function Culture() {
         </Col>
         <Col md={21}>
           <Content
-            title="Опера"
-            firstParagraph="Одесская Опера"
-            secondParagraph="123123"
-            thirdParagraph="213123"
-            fourthParagraph="1212"
-            fifthParagraph="d1"
+            contentKey={contentKey}
             src="/assets/historyComponent/opera.jpg"
+           
           />
         </Col>
       </Row>

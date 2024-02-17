@@ -1,4 +1,3 @@
-"use client";
 
 import { Menu } from "antd";
 import { useTranslations } from "next-intl";

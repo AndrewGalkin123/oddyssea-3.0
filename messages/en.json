@@ -354,11 +354,27 @@
     "paragraph#6": "The cathedral plays a significant role in the spiritual life of Odessa. Daily services are held here, including baptisms, weddings, and funerals, as well as various religious holidays and rituals. Spaso-Preobrazhensky Cathedral serves as a place of prayer and spiritual communion for many believers seeking peace and inspiration in the traditions of Orthodoxy.",
     "paragraph#7": "Spaso-Preobrazhensky Cathedral has become not only a symbol of spirituality and faith for Odessa but also an attractive tourist destination for many visitors. Many tourists who come to Odessa seek to see this majestic temple, learn about its rich history, and experience its spiritual atmosphere. Numerous guided tours and pilgrimage routes include a visit to Spaso-Preobrazhensky Cathedral, making it one of the key landmarks of the city. Spaso-Preobrazhensky Cathedral in Odessa is not just a beautiful church but also the spiritual heart of the city, a place where eternal values and traditions thrive. Its architectural beauty and historical significance make it an essential element of Odessa's cultural heritage and that of all of Ukraine. Anyone who steps through the doors of this magnificent cathedral experiences a unique spiritual journey, acquaints themselves with the world of spiritual values and faith, and finds solace and tranquility in its grace and peace."
   },
-  "CultureContentMenu":{
+  "CultureContentMenu": {
     "architecture": "Architecture of Odessa",
     "eclecticism": "Eclecticism of styles",
     "colorfulCenter": "Colorful center",
     "marine": "Marine motifs",
     "uniqueArchitecture": "Unique architectural objects"
+  },
+  "Eclecticism": {
+    "title": "Eclecticism of styles",
+    "paragraph#1": "Eclecticism of styles is one of the key features of Odessa's architecture. The city developed under the influence of various cultures and national traditions, which is reflected in its urban fabric.",
+    "paragraph#2": "Throughout its development, Odessa embraced diverse architectural trends; architects and builders drew inspiration from different sources, creating original architectural ensembles.",
+    "paragraph#3": "In Odessa's architecture, one can see elements of classicism, which imparted strictness and symmetry to the buildings, baroque, characterized by graceful forms and rich decorativeness, neoclassicism, inspired by ancient architecture, empire style, preferring lush decorative elements, and much more.",
+    "paragraph#4": "However, it is important to note that the splendor of Odessa's architectural ensemble lies not only in individual buildings but also in their interaction and combination with each other against the backdrop of the city panorama.",
+    "paragraph#5": "For example, on one street, one can encounter houses executed in different styles that, nevertheless, harmoniously coexist with each other, creating a unique atmosphere of the city. This phenomenon is characteristic of both the historical center of Odessa and other districts of the city, making its architectural appearance rich and diverse."
+  },
+  "ColorfulCenter": {
+    "title": "",
+    "paragraph#1": "",
+    "paragraph#2": "",
+    "paragraph#3": "",
+    "paragraph#4": "",
+    "paragraph#5": ""
   }
 }

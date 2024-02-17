@@ -1,34 +1,27 @@
-'use client'
+
 import { Typography } from "antd";
+import { useTranslations } from "next-intl";
 
 interface ContentProps {
-  title: string;
-  firstParagraph: string;
-  secondParagraph: string;
-  thirdParagraph: string;
-  fourthParagraph: string;
-  fifthParagraph: string;
   src: string;
+  contentKey: string;
 }
 
 const Content: React.FC<ContentProps> = ({
-  title,
-  firstParagraph,
-  secondParagraph,
-  thirdParagraph,
-  fourthParagraph,
-  fifthParagraph,
   src,
+  contentKey 
 }) => {
+
+  const t = useTranslations(contentKey)
   return (
     <div className="content" style={{maxWidth: "1400px"}}>
-      <Typography.Title level={1}>{title}</Typography.Title>
-      <Typography.Paragraph>{firstParagraph}</Typography.Paragraph>
+      <Typography.Title level={1}>{t("title")}</Typography.Title>
+      <Typography.Paragraph>{t("paragraph#1")}</Typography.Paragraph>
       {/* <img src={src}></img> */}
-      <Typography.Paragraph>{secondParagraph}</Typography.Paragraph>
-      <Typography.Paragraph>{thirdParagraph}</Typography.Paragraph>
-      <Typography.Paragraph>{fourthParagraph}</Typography.Paragraph>
-      <Typography.Paragraph>{fifthParagraph}</Typography.Paragraph>
+      <Typography.Paragraph>{t("paragraph#2")}</Typography.Paragraph>
+      <Typography.Paragraph>{t("paragraph#3")}</Typography.Paragraph>
+      <Typography.Paragraph>{t("paragraph#4")}</Typography.Paragraph>
+      <Typography.Paragraph>{t("paragraph#5")}</Typography.Paragraph>
     </div>
   );
 };
