@@ -17,11 +17,11 @@ const ContentMenu: React.FC<{ onItemClick: (key: string) => void }> = ({ onItemC
         <Item key="Marine">{t("marine")}</Item>
         <Item key="UniqueArchitecture">{t("uniqueArchitecture")}</Item>
       </SubMenu>
-      <SubMenu key="2" title="Номер 2 ">
-        <Item key="htmlLesson1">Урок №1</Item>
-        <Item key="htmlLesson2">Урок №2</Item>
-        <Item key="htmlLesson3">Урок №3</Item>
-        <Item key="htmlLesson4">Урок №4</Item>
+      <SubMenu key="CulinaryCulture" title={t("culinaryCulture")}>
+        <Item key="Delicacies">{t("delicacies")}</Item>
+        <Item key="FishCuisine">{t("fishCuisine")}</Item>
+        <Item key="JewishCuisine">{t("jewishCuisine")}</Item>
+        <Item key="PastryShops">{t("pastryShops")}</Item>
       </SubMenu>
     </Menu>
   );

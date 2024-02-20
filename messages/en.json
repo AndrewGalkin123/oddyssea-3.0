@@ -359,7 +359,12 @@
     "eclecticism": "Eclecticism of styles",
     "colorfulCenter": "Colorful center",
     "marine": "Marine motifs",
-    "uniqueArchitecture": "Unique architectural objects"
+    "uniqueArchitecture": "Unique architectural objects",
+    "culinaryCulture": "Culinary culture",
+    "delicacies": "Odessa delicacies",
+    "fishCuisine": "Fish cuisine",
+    "jewishCuisine": "Jewish cuisine",
+    "pastryShops": "Coffee shop and pastry shops"
   },
   "Eclecticism": {
     "title": "Eclecticism of styles",
@@ -392,5 +397,37 @@
     "paragraph#3": "Odessa Opera and Ballet Theater: This architectural masterpiece, built in the Baroque style, is one of the symbols of Odessa's cultural life. The theater was opened in 1887 and represents a magnificent building with a richly decorated facade, a majestic hall, and interior designs that combine various styles and epochs.",
     "paragraph#4": "Museum of Western and Eastern Art: Located in the historical center of Odessa, this museum is a unique architectural object and cultural center representing the rich heritage of Western and Eastern art. The museum building is a beautiful example of the Art Nouveau architectural style, with its characteristic curved lines, rich decorativeness, and unusual shape.",
     "paragraph#5": "These unique architectural landmarks are not only historical and cultural attractions of Odessa but also symbols of the city, attracting the attention of tourists and delighting residents with their beauty, originality, and significance."
+  },
+  "Delicacies": {
+    "title": "Odessa delicacies",
+    "paragraph#1": "Odessa delicacies represent unique dishes and treats that reflect the richness of the cultural heritage and culinary traditions of this city in southern Ukraine. Here are some of the most famous and beloved Odessa delicacies:",
+    "paragraph#2": "Odessa Strudel: This sweet dish has become a true symbol of the city. Odessa Strudel is a thin puff pastry filled with a sweet filling of apples, raisins, nuts, cinnamon, and sugar. It is usually served in slices or rolls and often garnished with powdered sugar.",
+    "paragraph#3": "Buckwheat Porridge Odessa Style: This traditional Odessa dish consists of buckwheat porridge, tomatoes, onions, carrots, and herbs. It gives the porridge a special taste and aroma, making it more flavorful and appetizing.",
+    "paragraph#4": "Odessa-style Fondue: This meat dish, prepared on a grill or in a skillet, consists of various types of meat (usually pork, beef, and chicken) cut into pieces and served with various sauces and seasonings. Odessa-style Fondue is a popular dish at festive tables and in restaurants in the city.",
+    "paragraph#5": "These three dishes are just a small part of Odessa's diverse culinary heritage. Each of them has its own unique taste and aroma that cannot be mistaken for anything else. Odessa delicacies are an integral part of the culture and traditions of this beautiful city, and they can be enjoyed in numerous restaurants and cafes offering authentic Odessa cuisine."
+  },
+  "FishCuisine": {
+    "title": "The fish cuisine in Odessa",
+    "paragraph#1": "The fish cuisine is particularly popular due to the city's proximity to the Black Sea and the abundance of fresh seafood. Local fish restaurants and cafes offer a rich selection of dishes made from various types of fish and seafood. Here are some of the most popular fish dishes in Odessa:",
+    "paragraph#2": "Fish Soup (Ukha): This is a traditional Ukrainian fish soup prepared from various types of fish, such as perch, carp, pike, and others. Ukha is usually seasoned with onions, carrots, potatoes, peppers, celery, and herbs, giving it a fragrant and rich taste.",
+    "paragraph#3": "Fried Fish: This is one of the simplest and most popular fish dishes in Odessa. Fish, usually fillets or whole fish, is fried on a grill or in a pan with spices, oil, and herbs. Fried fish is served with various side dishes such as boiled potatoes, vegetables, or salads.",
+    "paragraph#4": "Pickled Cucumbers: This is a popular appetizer often served with fish. Cucumbers are pickled in salt, vinegar, water, and various spices, giving them a special taste and aroma. Pickled cucumbers pair well with various types of fish and add flavor and crunch to the dish.",
+    "paragraph#5": "Fish Dishes with Seafood: In Odessa, dishes combining fish and seafood are also popular. These can include salads with shrimp or mussels, pasta with seafood, fish burgers with squid, and much more. Such dishes offer a variety of flavors and textures, making Odessa's fish cuisine even more attractive to guests and residents of the city. Odessa's fish cuisine is rich in delicious and diverse dishes that allow you to enjoy fresh and high-quality sea products. In the city, you can find many establishments where you can taste authentic fish dishes and savor the unique flavors of the sea."
+  },
+  "JewishCuisine": {
+    "title": "The Jewish cuisine",
+    "paragraph#1": "The Jewish cuisine in Odessa has a rich historical heritage, reflecting the centuries-old history of the Jewish people in this city. Thanks to the numerous Jewish population that has long resided in Odessa, the local cuisine has been enriched with a variety of delicious and aromatic dishes. Here are some of the most characteristic dishes of Jewish cuisine in Odessa:",
+    "paragraph#2": "Gefilte Fish: This is a traditional Jewish dish consisting of fish-stuffed patties, usually made from carp or pike, cooked in broth. Gefilte fish is served with horseradish or in mustard sauce and is a popular dish on festive tables.",
+    "paragraph#3": "Knedle: This is another traditional dish of Jewish cuisine, which consists of dumplings made of meat or potato dough. Knedle are often served in soup or as a standalone dish, topped with sauce or sour cream.",
+    "paragraph#4": "Challah: This is a traditional Jewish bread, shaped like a braid. Challah is a symbol of prosperity and is usually served on Shabbat and festive tables.",
+    "paragraph#5": "Kugel: This is another popular Jewish dish, which is a baked layered pie with apples, cottage cheese, or potatoes. Kugel can be sweet or savory and is a traditional dish in the festive menu. These dishes are just a small part of the rich culinary heritage of Jewish cuisine in Odessa. They reflect the traditions and culture of the Jewish people and are an important part of the culinary diversity of the city."
+  },
+  "PastryShops": {
+    "title": "Coffee shops and pastry shops",
+    "paragraph#1": "Coffee shops and pastry shops in Odessa are an integral part of the city's culture, offering a wide selection of delicious beverages and desserts. Here are some of the characteristics and offerings that can be found in these establishments:",
+    "paragraph#2": "Atmosphere and decor: Odessa's coffee shops and pastry shops often have cozy and stylish interiors designed for visitors to enjoy the atmosphere and relax from the hustle and bustle of the city. Many of them have thematic decorations or historical elements, adding a special charm.",
+    "paragraph#3": "Wide selection of beverages: Odessa's coffee shops typically offer a wide selection of beverages to suit every taste - from classic espresso and cappuccino to signature coffee drinks with various flavored syrups and additives. In addition, the menu often includes various types of tea, juice, and other non-alcoholic beverages.",
+    "paragraph#4": "Desserts and sweets: Odessa's pastry shops are renowned for their delightful desserts and sweets. Here you can taste various types of cakes, pastries, cookies, mousses, pies, and other sweet treats. Many of them are proprietary recipes or represent interesting experiments by chefs. Some coffee shops and pastry shops in Odessa offer their signature items that cannot be found anywhere else. These may include unique types of coffee, exclusive desserts, or special compositions and gift sets for connoisseurs of high-quality food.",
+    "paragraph#5": "Some of the coffee shops are located on the upper floors of buildings, offering panoramic views of the city and the sea. Visitors can enjoy not only delicious drinks and desserts but also beautiful views of the surrounding landscape. These features make coffee shops and pastry shops in Odessa attractive places to spend time in a cozy atmosphere, enjoy delicious food and drinks, and meet with friends or loved ones."
   }
 }
