@@ -29,6 +29,12 @@ const ContentMenu: React.FC<{ onItemClick: (key: string) => void }> = ({ onItemC
         <Item key="CulturalEvents">{t("culturalEvents")}</Item>
         <Item key="LanguageDiversity">{t("languageDiversity")}</Item>
       </SubMenu>
+      <SubMenu key="Diversity" title={t("diversity")}>
+        <Item key="MulticulturalAtmosphere">{t("multiculturalAtmosphere")}</Item>
+        <Item key="JewishCommunity">{t("jewishCommunity")}</Item>
+        <Item key="CulturalEvents">{t("culturalEvents")}</Item>
+        <Item key="LanguageDiversity">{t("languageDiversity")}</Item>
+      </SubMenu>
     </Menu>
   );
 };
