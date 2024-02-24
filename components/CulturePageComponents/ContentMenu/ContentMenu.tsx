@@ -29,11 +29,16 @@ const ContentMenu: React.FC<{ onItemClick: (key: string) => void }> = ({ onItemC
         <Item key="CulturalEvents">{t("culturalEvents")}</Item>
         <Item key="LanguageDiversity">{t("languageDiversity")}</Item>
       </SubMenu>
-      <SubMenu key="Diversity" title={t("diversity")}>
-        <Item key="MulticulturalAtmosphere">{t("multiculturalAtmosphere")}</Item>
-        <Item key="JewishCommunity">{t("jewishCommunity")}</Item>
-        <Item key="CulturalEvents">{t("culturalEvents")}</Item>
-        <Item key="LanguageDiversity">{t("languageDiversity")}</Item>
+      <SubMenu key="Religion" title={t("religion")}>
+        <Item key="CathedralsAndChurches">{t("cathedralsAndChurches")}</Item>
+        <Item key="Synagogues">{t("synagogues")}</Item>
+        <Item key="ReligiousHolidays">{t("culturalEvents")}</Item>
+      </SubMenu>
+      <SubMenu key="MuseumsAndGalleries" title={t("museumsAndGalleries")}>
+        <Item key="ArtMuseum">{t("artMuseum")}</Item>
+        <Item key="WesternAndEasternArtMuseum">{t("westernAndEasternArtMuseum")}</Item>
+        <Item key="LiteratureMuseum">{t("literatureMuseum")}</Item>
+        <Item key="ArtGalleries">{t("artGalleries")}</Item>
       </SubMenu>
     </Menu>
   );

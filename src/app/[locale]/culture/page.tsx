@@ -16,10 +16,10 @@ export default function Culture() {
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
-        <Col md={4}>
+        <Col md={5}>
           <ContentMenu onItemClick={handleMenuItemClick}></ContentMenu>
         </Col>
-        <Col md={20}>
+        <Col md={19}>
           <Content
             contentKey={contentKey}
             src="/assets/historyComponent/opera.jpg"
