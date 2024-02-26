@@ -40,6 +40,13 @@ const ContentMenu: React.FC<{ onItemClick: (key: string) => void }> = ({ onItemC
         <Item key="LiteratureMuseum">{t("literatureMuseum")}</Item>
         <Item key="ArtGalleries">{t("artGalleries")}</Item>
       </SubMenu>
+      <SubMenu key="TheatersAndCinemas" title={t("theatersAndCinemas")}>
+        <Item key="OperaTheatre">{t("operaTheatre")}</Item>
+        <Item key="Theater'MaskShow'">{t("theater'MaskShow'")}</Item>
+        <Item key="ComedianTheater">{t("comedianTheater")}</Item>
+        <Item key="Cinemas">{t("cinemas")}</Item>
+        <Item key="SummerCinemas">{t("summerCinemas")}</Item>
+      </SubMenu>
     </Menu>
   );
 };
