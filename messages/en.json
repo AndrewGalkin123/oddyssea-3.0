@@ -384,7 +384,13 @@
     "theater'MaskShow'": "Theater 'Mask Show'",
     "comedianTheater": "Theater 'Comedian'",
     "cinemas": "Cinemas",
-    "summerCinemas": "Summer cinemas"
+    "summerCinemas": "Summer cinemas",
+    "streetArt": "Street art and initiatives",
+    "graffiti": "Graffiti and street art",
+    "streetFestivals": "Street festivals and events",
+    "streetExhibitions": "Outdoor exhibitions and installations",
+    "streetPerformances": "Street performances and shows",
+    "cityWalks": "City walks and excursions"
   },
   "Eclecticism": {
     "title": "Eclecticism of styles",
@@ -577,5 +583,45 @@
     "paragraph#3": "Summer Cinema at Dolphin Beach: This cinema is situated on Dolphin Beach and offers the opportunity to enjoy movies with a view of the sea. It's the perfect place for a romantic evening or a pleasant time with friends.",
     "paragraph#4": "Summer Cinema in Gorky Park: In this cinema, you can also enjoy movies under the open sky in the picturesque atmosphere of the park.",
     "paragraph#5": "hese summer cinemas provide an opportunity to enjoy cinema in the fresh air and create unforgettable impressions of watching movies in the unique atmosphere of Odessa. "
+  },
+  "Graffiti": {
+    "title": "Graffiti and street art",
+    "paragraph#1": "In Odessa, graffiti and street art are an important part of the city's culture, attracting the attention of both locals and tourists. Here are some interesting facts and places related to graffiti and street art in Odessa:",
+    "paragraph#2": "Graffiti Festivals: Over the past few years, various graffiti festivals have been held in Odessa, where local and international artists create pieces on the city's walls. Such events contribute to the development of street art and make the city more vibrant.",
+    "paragraph#3": "Street Galleries: In some areas of Odessa, you can find street galleries where various works of artists are displayed on building walls. One popular place for graffiti is the cultural quarter around Primorsky Boulevard.",
+    "paragraph#4": "Interesting Objects: Odessa artists often use various objects of urban infrastructure, such as stairs, walls, electrical transformers, and others, to create their works. These objects add originality and uniqueness to the city streets.",
+    "paragraph#5": "Street Art Tours: In Odessa, there are tours of street art objects, during which guides take tourists to the most interesting places in the city where they can see the street works of artists and learn the stories behind their creation. Graffiti and street art in Odessa are an integral part of the urban landscape, adding brightness and originality to the streets, and serving as a platform for self-expression for local artists."
+  },
+  "StreetFestivals": {
+    "title": "Street festivals and events",
+    "paragraph#1": "In Odessa, a number of street festivals and events are held to diversify the city's cultural life and attract the attention of both locals and tourists. Here are some of them:",
+    "paragraph#2": "Street Food Festival: The Odessa Street Food Festival is a gastronomic event where cafes, restaurants, and food trucks gather on the city streets to offer visitors a variety of dishes and treats from various cuisines around the world. The festival is often accompanied by musical performances and cooking workshops by chefs.",
+    "paragraph#3": "Street Art and Graffiti Festival: This festival invites local and international artists to create graffiti and street art objects on the city streets. The event includes workshops, exhibitions, competitions, and city tours showcasing street works and the places they were created.",
+    "paragraph#4": "Odessa Carnival: The carnival in Odessa is one of the brightest events of the year. During carnival parades and processions, street artists, musicians, and dancers showcase their talents, while participants and spectators dress up in costumes and masks.",
+    "paragraph#5": "Street Theater Festival: This event invites theater groups and street artists to present their performances and shows on the city streets. Spectators can enjoy theatrical performances, street circus acts, mimes, and other forms of street art. These and other street festivals and events make Odessa more picturesque and diverse, creating a unique atmosphere and attracting the attention of both locals and visitors to the city."
+  },
+  "StreetExhibitions": {
+    "title": "Outdoor exhibitions and installations",
+    "paragraph#1": "In Odessa, street exhibitions and various art installations are often held, giving the city a special character and attracting the attention of both residents and tourists. Here are a few examples of street exhibitions and installations in Odessa:",
+    "paragraph#2": "Street Gallery on Primorsky Boulevard: Primorsky Boulevard is the center of Odessa's cultural life, where contemporary art exhibitions are often held. On the streets and building walls, you can see works by various artists, ranging from graffiti and street art to sculptural installations.",
+    "paragraph#3": "Street Exhibitions on Deribasovskaya Street: Deribasovskaya Street is one of the most famous streets in Odessa, where exhibitions of local artists' works are often held. Here you can see paintings, photographs, sculptures, and other works of art.",
+    "paragraph#4": "Installations in Parks and Squares: Temporary installations and sculptures are installed in various parks and squares of the city, giving the green areas of the city an additional art atmosphere. Such installations can be made of various materials and have different themes.",
+    "paragraph#5": "Street Installation Festivals: Sometimes, special street festivals dedicated to installations and contemporary art are held in Odessa. At such events, artists showcase their works on the city streets, creating unique and impressive installations. Street exhibitions and installations in Odessa make the city more interesting and attractive to visit, allowing residents and guests of the city to enjoy the diversity of contemporary art on the streets and squares."
+  },
+  "StreetPerformances": {
+    "title": "Street performances and shows",
+    "paragraph#1": "In Odessa, street performances and shows are popular forms of entertainment for both locals and tourists. The city offers a variety of street performances that add a lively and vibrant atmosphere to the streets. Here are some examples of street performances and shows in Odessa:",
+    "paragraph#2": "Street Musicians and Artists: On the streets of Odessa, you can often encounter street musicians, actors, mimes, and other artists performing for passersby. They create a street atmosphere by adding live music, theatrical performances, and various types of shows to the city.",
+    "paragraph#3": "Street Flash Mobs and Dance Performances: Organizers often hold street flash mobs and dance performances in central squares and streets of the city. These may involve professional dancers as well as ordinary citizens who come together for collective dance or performance.",
+    "paragraph#4": "Street Theater Festivals: Odessa's street theater festivals invite troupes from different countries to present their plays and performances on the city streets. Audiences can enjoy theatrical productions, circus acts, and other street performances.",
+    "paragraph#5": "Street Shows as Part of Cultural Events: Many cultural events such as carnivals, holidays, and festivals include street shows and performances. These may involve fireworks, acrobatic acts, pyrotechnic displays, and much more. Street performances and shows in Odessa create a vibrant and diverse atmosphere in the city, making it even more attractive for visitors to enjoy various forms of outdoor entertainment."
+  },
+  "CityWalks": {
+    "title": "City walks and excursions",
+    "paragraph#1": "In Odessa, there are numerous interesting places for walks and excursions, allowing guests and residents of the city to better understand its history, culture, and attractions. Here are several options for urban walks and excursions in Odessa:",
+    "paragraph#2": "Walk along Primorsky Boulevard: Primorsky Boulevard is one of the main arteries of Odessa, stretching along the seaside. Along the boulevard, there are beautiful buildings, monuments, sculptures, as well as numerous cafes and restaurants. A stroll along Primorsky Boulevard provides an opportunity to enjoy views of the sea and immerse oneself in the atmosphere of urban life.",
+    "paragraph#3": "City tour of the historical center: A tour of the historical center of Odessa allows you to learn about the city's rich history, its architecture, and cultural traditions. During the tour, you can visit such places as Deribasovskaya Street, Prymorsky Cathedral Square, Potemkin Stairs, and others.",
+    "paragraph#4": "Excursion to the Odessa Catacombs: This unique excursion offers a journey into the underground world of Odessa and learning about its mysterious catacombs. The excursion to the catacombs provides an opportunity to learn about the history of the creation of these underground tunnels and their significance for the city.",
+    "paragraph#5": "Walk along the beaches and promenades: Odessa is famous for its beautiful beaches and promenades, where you can spend time in nature and enjoy views of the sea. A walk along the beaches and promenades of Odessa allows you to relax from the city bustle and enjoy the sea breeze. These and other urban walks and excursions offer various ways to explore Odessa, its history, and culture, as well as to enjoy the beauty of the city and its attractions."
   }
 }
