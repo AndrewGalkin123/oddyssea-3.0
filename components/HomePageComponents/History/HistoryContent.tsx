@@ -9,26 +9,26 @@ const HistoryContent: React.FC = () => {
   const info = useTranslations("HomePageHistory");
   const items = [
     {
-      href: "/",
+      href: "history/sailor-wife",
       src: "/assets/historyComponent/sailorWife.jpeg",
       title: info("sailor'sWife"),
       info: info("sailor'sWifeInfo"),
     },
     {
-      href: "/history",
+      href: "history/vorontsovsky-lighthouse",
       src: "/assets/historyComponent/lighthouse.jpg",
       title: info("lighthouse"),
       info: info("lighthouseInfo"),
     },
     {
-      href: "/",
+      href: "history/paul-church",
       src: "/assets/historyComponent/pavelCathedral.jpg",
       title: info("lutheranChurch"),
       info: info("lutheranChurchInfo"),
     },
     {
-      href: "/",
-      src: "/assets/historyComponent/opera.jpg",
+      href: "history/theater-garden",
+      src: "/assets/historyPageImages/theaterGarden.jpg",
       title: info("theaterGarden"),
       info: info("theaterGardenInfo"),
     },
