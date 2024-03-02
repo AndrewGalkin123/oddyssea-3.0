@@ -65,7 +65,7 @@ const PhotoGallery: React.FC = () => {
         </Row>
        
       </div>
-      <RedirectButton to="/history">{t("redirectButtonText")}</RedirectButton>
+      <RedirectButton to="/photogallery">{t("redirectButtonText")}</RedirectButton>
     </Row>
   );
 };

@@ -32,24 +32,7 @@ const HistoryContent: React.FC = () => {
       title: info("theaterGarden"),
       info: info("theaterGardenInfo"),
     },
-    {
-      href: "history/theater-garden",
-      src: "/assets/historyPageImages/theaterGarden.jpg",
-      title: info("theaterGarden"),
-      info: info("theaterGardenInfo"),
-    },
-    {
-      href: "history/theater-garden",
-      src: "/assets/historyPageImages/theaterGarden.jpg",
-      title: info("theaterGarden"),
-      info: info("theaterGardenInfo"),
-    },
-    {
-      href: "history/theater-garden",
-      src: "/assets/historyPageImages/theaterGarden.jpg",
-      title: info("theaterGarden"),
-      info: info("theaterGardenInfo"),
-    },
+ 
   ];
   return (
     <Row style={{flexDirection: 'column'}}>
