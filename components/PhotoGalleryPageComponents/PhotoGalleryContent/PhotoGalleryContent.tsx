@@ -1,6 +1,6 @@
 "use client"
 
-import { SizeRegulator } from "../SizeRegulator/SizeRegulator";
+import { PhotoGalleryFilter } from "../Filter/PhotoGalleryFilter";
 import { Flex, Image } from "antd";
 
 interface PhotoGalleryContentProps { 
@@ -12,7 +12,7 @@ const PhotoGalleryContent:React.FC<PhotoGalleryContentProps> = ({arr}) => {
         <div>
                 <Flex align="center" justify="center" wrap="wrap" gap="middle">
                     {
-                        arr.map((item => <Image key={item} width="250px" height="250px" src={item}/>))
+                        arr.map((item => <Image style={{objectFit: "cover"}} key={item} width="250px" height="250px" src={item}/>))
                     }
                 </Flex>
             

@@ -1,7 +1,7 @@
 
 import { Divider } from "antd";
 
-const SizeRegulator = () => {
+const PhotoGalleryFilter = () => {
     return(
         <>
             <Divider/>
@@ -9,4 +9,4 @@ const SizeRegulator = () => {
     )
 }
 
-export {SizeRegulator}
+export {PhotoGalleryFilter}
