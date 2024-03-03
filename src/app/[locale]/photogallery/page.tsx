@@ -14,7 +14,7 @@ export default function PhotoGallery() {
   "/assets/photoGalleryComponent/dumskaSquare.jpg",
   "/assets/photoGalleryComponent/dumskaSquareillustration.jpg",
   "/assets/photoGalleryComponent/opera1.jpg",
-  "/assets/photoGalleryComponent/odessaStreet.jpg",
+  "/assets/photoGalleryComponent/odessaStreet4.jpg",
   "/assets/photoGalleryComponent/f6f304c1-bfcd-4bcb-a61a-6bc6cd01b230.jpeg",
   "/assets/photoGalleryComponent/dukeMonument.jpg",
   "/assets/photoGalleryComponent/opera2.jpg",
@@ -32,7 +32,11 @@ export default function PhotoGallery() {
   "/assets/photoGalleryComponent/odessaYard.jpg",
   "/assets/photoGalleryComponent/odessaYard1.jpg",
   "/assets/photoGalleryComponent/odessaHouse.jpg",
-  "/assets/photoGalleryComponent/odessaStreet.jpg",
+  "/assets/photoGalleryComponent/odessaStreet3.jpg",
+  "/assets/photoGalleryComponent/church1.jpg",
+  "/assets/photoGalleryComponent/odessaHouse3.jpg",
+  "/assets/photoGalleryComponent/odessaSculpture.jpg",
+  "/assets/photoGalleryComponent/odessaStreet2.jpg",
 ];
   return (
     <main style={{ padding: "100px 0" }}>
