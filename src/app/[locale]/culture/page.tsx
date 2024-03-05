@@ -4,9 +4,8 @@ import { ContentMenu } from "../../../../components/CulturePageComponents/Conten
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";
 import { useState } from "react";
 
-
 export default function Culture() {
-  const [contentKey , setContentKey] = useState("Eclecticism")
+  const [contentKey, setContentKey] = useState("Eclecticism");
   const  handleMenuItemClick = (key: string) => {
    
     setContentKey(key)

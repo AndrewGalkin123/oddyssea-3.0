@@ -13,8 +13,8 @@
   height: 40px;
   border: none;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  margin: 15px auto 25px auto;
+
 }
 
 .redirect-button:hover {

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 
 const items = [
   {
-    href: "",
+    href: "/culture",
     src: "/assets/cultureComponent/dukeMonument.jpeg",
     title: "Duke Monument",
   },
