@@ -4,6 +4,7 @@ import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { TheHeader } from "../../../components/common/Header/TheHeader";
 import { TheFooter } from "../../../components/common/Footer/TheFooter";
+import { ReduxProvider } from "@/redux/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,11 +34,13 @@ const RootLayout: React.FC<Props> = ({ children, params: {locale} }) => {
         />
       </head>
       <body className={inter.className}>
+        <ReduxProvider>
         <NextIntlClientProvider  messages={messages}>
           <TheHeader />
           {children}
           <TheFooter />
         </NextIntlClientProvider>
+        </ReduxProvider>
       </body>
     </html>
   );
