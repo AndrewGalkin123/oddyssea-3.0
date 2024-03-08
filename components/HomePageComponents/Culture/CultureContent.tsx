@@ -79,6 +79,7 @@ const CultureContent: React.FC = () => {
                 href={item.href}
                 src={item.src}
                 title={item.title}
+              
               />
             ))}
           </div>

@@ -2,13 +2,12 @@
 import { Row, Col } from "antd";
 import { ContentMenu } from "../../../../components/CulturePageComponents/ContentMenu/ContentMenu";
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";
-import { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { setContentKey } from "../../../redux/features/culture-content-key-slice"
 
 export default function Culture() {
   const dispatch = useDispatch();
-  const contentKey = useSelector((state) => state.content.contentKey);
+  const contentKey = useSelector((state: { content: { contentKey: string } }) => state.content.contentKey);
 
   const handleMenuItemClick = (key: string) => {
     dispatch(setContentKey(key));

@@ -8,6 +8,7 @@ interface PhotoGalleryContentProps {
 }
 
 const PhotoGalleryContent:React.FC<PhotoGalleryContentProps> = ({arr}) => {
+    
     return(
         <div>
                 <Flex align="center" justify="center" wrap="wrap" gap="middle">
