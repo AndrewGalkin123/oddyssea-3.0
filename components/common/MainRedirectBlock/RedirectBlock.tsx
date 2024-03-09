@@ -4,12 +4,13 @@ interface RedirectBlockProps {
   href: string;
   src: string;
   title: string;
+  onClick?: void
 }
 
 const RedirectBlock: React.FC<RedirectBlockProps> = ({
   href,
   src,
-  title,
+  title
 }) => {
   return (
     <a className="photo-item" href={href}>

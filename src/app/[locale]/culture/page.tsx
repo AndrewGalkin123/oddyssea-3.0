@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { Row, Col } from "antd";
 import { ContentMenu } from "../../../../components/CulturePageComponents/ContentMenu/ContentMenu";
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";

@@ -1,56 +1,55 @@
 import { Row, Divider, Typography } from "antd";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 import { useTranslations } from "next-intl";
+import { useDispatch, useSelector } from 'react-redux';
+import { setContentKey } from "@/redux/features/culture-content-key-slice";
 
-const items = [
-  {
-    href: "/culture",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-  {
-    href: "",
-    src: "/assets/cultureComponent/dukeMonument.jpeg",
-    title: "Duke Monument",
-  },
-];
 
 const CultureContent: React.FC = () => {
+  const dispatch = useDispatch();
   const t = useTranslations("Common");
+  const cultureT = useTranslations("CultureContentMenu")
+  const items = [
+    {
+      key: "Eclecticism",
+      src: "/assets/cultureComponent/dumskaSquare.jpg",
+      title: cultureT("architecture"),
+    },
+    {
+      key: "Delicacies",
+      src: "/assets/cultureComponent/92_main-v1583937428.jpg",
+      title:  cultureT("delicacies"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("pastryShops"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("culturalEvents"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("synagogues"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("literatureMuseum"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("cityWalks"),
+    },
+    {
+      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      title:  cultureT("jewishCuisine"),
+    },
+  ];
+  
   return (
     <Row>
       <Typography.Title className="title" level={3}>
-      {t("culture")}
+        {t("culture")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
       <div className="content" style={{ maxWidth: "1350px" }}>
@@ -75,11 +74,13 @@ const CultureContent: React.FC = () => {
           >
             {items.map((item) => (
               <RedirectBlock
-                key={item.src}
-                href={item.href}
+                key={item.key}
+                href="/culture"
                 src={item.src}
                 title={item.title}
-              
+                onClick={
+                  dispatch(setContentKey(item.key))
+                }
               />
             ))}
           </div>
