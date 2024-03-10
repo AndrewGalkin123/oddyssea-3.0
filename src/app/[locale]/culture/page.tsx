@@ -4,6 +4,7 @@ import { ContentMenu } from "../../../../components/CulturePageComponents/Conten
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";
 import { useDispatch, useSelector } from 'react-redux';
 import { setContentKey } from "../../../redux/features/culture-content-key-slice"
+import React, { useEffect } from 'react';
 
 export default function Culture() {
   const dispatch = useDispatch();
@@ -12,6 +13,11 @@ export default function Culture() {
   const handleMenuItemClick = (key: string) => {
     dispatch(setContentKey(key));
   };
+  useEffect(() => {
+    // Здесь вы можете выполнить любые действия, которые должны быть выполнены при изменении contentKey
+    console.log('Content key was updated:', contentKey);
+  }, [contentKey]); // Передаем contentKey как зависимость, чтобы useEffect срабатывал при его изменении
+
  
   return (
     <main style={{ padding: "100px 0px" }}>
@@ -27,6 +33,7 @@ export default function Culture() {
           />
         </Col>
       </Row>
+
     </main>
   );
 }

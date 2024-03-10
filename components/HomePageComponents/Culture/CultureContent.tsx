@@ -1,14 +1,14 @@
 import { Row, Divider, Typography } from "antd";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 import { useTranslations } from "next-intl";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { setContentKey } from "@/redux/features/culture-content-key-slice";
 
 
 const CultureContent: React.FC = () => {
   const dispatch = useDispatch();
   const t = useTranslations("Common");
-  const cultureT = useTranslations("CultureContentMenu")
+  const cultureT = useTranslations("CultureContentMenu");
   const items = [
     {
       key: "Eclecticism",
@@ -18,34 +18,35 @@ const CultureContent: React.FC = () => {
     {
       key: "Delicacies",
       src: "/assets/cultureComponent/92_main-v1583937428.jpg",
-      title:  cultureT("delicacies"),
+      title: cultureT("delicacies"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("pastryShops"),
+      title: cultureT("pastryShops"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("culturalEvents"),
+      title: cultureT("culturalEvents"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("synagogues"),
+      title: cultureT("synagogues"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("literatureMuseum"),
+      title: cultureT("literatureMuseum"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("cityWalks"),
+      title: cultureT("cityWalks"),
     },
     {
       src: "/assets/cultureComponent/dukeMonument.jpeg",
-      title:  cultureT("jewishCuisine"),
+      title: cultureT("jewishCuisine"),
     },
   ];
-  
+
+
   return (
     <Row>
       <Typography.Title className="title" level={3}>
@@ -78,9 +79,9 @@ const CultureContent: React.FC = () => {
                 href="/culture"
                 src={item.src}
                 title={item.title}
-                onClick={
+                onClick={() => {
                   dispatch(setContentKey(item.key))
-                }
+                }}                
               />
             ))}
           </div>

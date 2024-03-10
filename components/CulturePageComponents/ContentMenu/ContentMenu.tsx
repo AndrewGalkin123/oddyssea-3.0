@@ -1,4 +1,3 @@
-
 import { Menu } from "antd";
 import { useTranslations } from "next-intl";
 const { Item, SubMenu } = Menu;

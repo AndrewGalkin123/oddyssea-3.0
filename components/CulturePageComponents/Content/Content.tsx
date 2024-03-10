@@ -1,6 +1,6 @@
-
 import { Typography } from "antd";
 import { useTranslations } from "next-intl";
+import { useEffect } from "react";
 
 interface ContentProps {
   src: string;
@@ -12,8 +12,9 @@ const Content: React.FC<ContentProps> = ({
   contentKey 
 }) => {
 
-  const t = useTranslations(contentKey)
+  const t = useTranslations(contentKey);
   return (
+    
     <div className="content" style={{maxWidth: "1400px"}}>
       <Typography.Title level={1}>{t("title")}</Typography.Title>
       <Typography.Paragraph>{t("paragraph#1")}</Typography.Paragraph>
