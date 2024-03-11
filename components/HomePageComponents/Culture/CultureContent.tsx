@@ -1,14 +1,22 @@
+"use client"
 import { Row, Divider, Typography } from "antd";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 import { useTranslations } from "next-intl";
 import { useDispatch, useSelector } from "react-redux";
 import { setContentKey } from "@/redux/features/culture-content-key-slice";
-
+import { useEffect } from "react";
 
 const CultureContent: React.FC = () => {
   const dispatch = useDispatch();
   const t = useTranslations("Common");
   const cultureT = useTranslations("CultureContentMenu");
+  const contentKey = useSelector((state: { content: { contentKey: string } }) => state.content.contentKey);
+  useEffect(() => {
+    // Здесь вы можете выполнить любые действия, которые должны быть выполнены при изменении contentKey
+    console.log('Content key was updated:', contentKey);
+  }, [contentKey]); // Передаем contentKey как зависимость, чтобы useEffect срабатывал при его изменении
+
+ 
   const items = [
     {
       key: "Eclecticism",
@@ -21,32 +29,40 @@ const CultureContent: React.FC = () => {
       title: cultureT("delicacies"),
     },
     {
+      key: "PastryShops",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("pastryShops"),
     },
     {
+      key: "CulturalEvents",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("culturalEvents"),
     },
     {
+      key: "Synagogues",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("synagogues"),
     },
     {
+      key: "LiteratureMuseum",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("literatureMuseum"),
     },
     {
+      key: "CityWalks",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("cityWalks"),
     },
     {
+      key: "JewishCuisine",
       src: "/assets/cultureComponent/dukeMonument.jpeg",
       title: cultureT("jewishCuisine"),
     },
   ];
 
-
+  const handleClick = (key: string) => {
+    dispatch(setContentKey(key));
+  };
   return (
     <Row>
       <Typography.Title className="title" level={3}>
@@ -79,9 +95,7 @@ const CultureContent: React.FC = () => {
                 href="/culture"
                 src={item.src}
                 title={item.title}
-                onClick={() => {
-                  dispatch(setContentKey(item.key))
-                }}                
+                onClick={() => handleClick(item.key)}      
               />
             ))}
           </div>

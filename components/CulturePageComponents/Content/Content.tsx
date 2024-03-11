@@ -1,6 +1,6 @@
 import { Typography } from "antd";
 import { useTranslations } from "next-intl";
-import { useEffect } from "react";
+
 
 interface ContentProps {
   src: string;
