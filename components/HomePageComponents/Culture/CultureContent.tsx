@@ -4,17 +4,13 @@ import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 import { useTranslations } from "next-intl";
 import { useDispatch, useSelector } from "react-redux";
 import { setContentKey } from "@/redux/features/culture-content-key-slice";
-import { useEffect } from "react";
+
 
 const CultureContent: React.FC = () => {
   const dispatch = useDispatch();
   const t = useTranslations("Common");
   const cultureT = useTranslations("CultureContentMenu");
-  const contentKey = useSelector((state: { content: { contentKey: string } }) => state.content.contentKey);
-  useEffect(() => {
-    // Здесь вы можете выполнить любые действия, которые должны быть выполнены при изменении contentKey
-    console.log('Content key was updated:', contentKey);
-  }, [contentKey]); // Передаем contentKey как зависимость, чтобы useEffect срабатывал при его изменении
+  
 
  
   const items = [

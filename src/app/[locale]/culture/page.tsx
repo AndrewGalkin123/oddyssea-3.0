@@ -4,19 +4,16 @@ import { ContentMenu } from "../../../../components/CulturePageComponents/Conten
 import { Content } from "../../../../components/CulturePageComponents/Content/Content";
 import { useDispatch, useSelector } from 'react-redux';
 import { setContentKey } from "../../../redux/features/culture-content-key-slice"
-import React, { useEffect } from 'react';
+import React from 'react';
 
 export default function Culture() {
   const dispatch = useDispatch();
   const contentKey = useSelector((state: { content: { contentKey: string } }) => state.content.contentKey);
 
+
   const handleMenuItemClick = (key: string) => {
     dispatch(setContentKey(key));
   };
-  useEffect(() => {
-    // Здесь вы можете выполнить любые действия, которые должны быть выполнены при изменении contentKey
-    console.log('Content key was updated:', contentKey);
-  }, [contentKey]); // Передаем contentKey как зависимость, чтобы useEffect срабатывал при его изменении
 
  
   return (
