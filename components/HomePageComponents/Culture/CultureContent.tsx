@@ -26,22 +26,22 @@ const CultureContent: React.FC = () => {
     },
     {
       key: "PastryShops",
-      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      src: "/assets/cultureComponent/caption.jpg",
       title: cultureT("pastryShops"),
     },
     {
       key: "CulturalEvents",
-      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      src: "/assets/cultureComponent/4-1.jpg",
       title: cultureT("culturalEvents"),
     },
     {
       key: "Synagogues",
-      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      src: "/assets/cultureComponent/synagogue.jpg",
       title: cultureT("synagogues"),
     },
     {
       key: "LiteratureMuseum",
-      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      src: "/assets/cultureComponent/literatureMuseum.jpg",
       title: cultureT("literatureMuseum"),
     },
     {
@@ -51,7 +51,7 @@ const CultureContent: React.FC = () => {
     },
     {
       key: "JewishCuisine",
-      src: "/assets/cultureComponent/dukeMonument.jpeg",
+      src: "/assets/cultureComponent/jewishCuisine.jpg",
       title: cultureT("jewishCuisine"),
     },
   ];
