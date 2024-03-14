@@ -1,27 +1,25 @@
 import { Carousel } from "antd";
 
 const contentStyle: React.CSSProperties = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
+  height: "300px",
+  width: "100%",
+  objectFit: "cover",
 };
 
 const Slider: React.FC = () => {
   return (
     <Carousel autoplay autoplaySpeed={5000} style={{marginBottom: '20px'}}>
       <div>
-        <h3 style={contentStyle}>1</h3>
+       <img style={contentStyle} src="/assets/photoGalleryComponent/seaView9.jpg"/>
       </div>
       <div>
-        <h3 style={contentStyle}>2</h3>
+      <img style={contentStyle} src="/assets/photoGalleryComponent/seaView3.jpg"/>
       </div>
       <div>
-        <h3 style={contentStyle}>3</h3>
+      <img style={contentStyle} src="/assets/photoGalleryComponent/seaView10.jpg"/>
       </div>
       <div>
-        <h3 style={contentStyle}>4</h3>
+          <img style={contentStyle} src="/assets/photoGalleryComponent/seaView13.jpg"/>
       </div>
     </Carousel>
   );
