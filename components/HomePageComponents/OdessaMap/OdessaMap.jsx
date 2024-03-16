@@ -1,10 +1,12 @@
 import { Row, Divider, Typography } from "antd";
+import { useTranslations } from "next-intl";
 
 const OdessaMap = () => {
+  const t = useTranslations("Common")
   return (
     <Row>
       <Typography.Title className="title" level={3} >
-        Odessa Map
+        {t("odessaMap")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
       <div

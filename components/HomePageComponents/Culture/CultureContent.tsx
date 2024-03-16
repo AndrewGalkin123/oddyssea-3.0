@@ -2,7 +2,7 @@
 import { Row, Divider, Typography } from "antd";
 import { RedirectBlock } from "../../common/MainRedirectBlock/RedirectBlock";
 import { useTranslations } from "next-intl";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setContentKey } from "@/redux/features/culture-content-key-slice";
 
 
