@@ -3,6 +3,21 @@
     height: 150px;
     border: 0.8px solid rgb(57, 57, 57);
     padding: 20px;
-  
-   
+    box-shadow: 5px 5px 5px rgb(237, 237, 237);
+    cursor: pointer;
+    background-color: white;
+}
+
+.usefulLink-block:hover { 
+    background-color: rgb(249, 249, 249);
+}
+
+.usefulLink-block h3 { 
+    color: #004494;
+    font-size: 1.29em;
+    font-weight: 500;
+}
+.usefulLink-block p {
+    font-size: 14px;
+    color: rgb(33, 37, 41);
 }
