@@ -32,24 +32,29 @@ const UsefulLinkContent = () => {
       href: "http://www.archaeology.odessa.ua"
     },
     {
-      title: "",
-      paragraph: "",
+      title: t("artMuseum"),
+      paragraph: t("artMuseumDescription"),
+      href: "http://ofam.od.ua"
     },
     {
-      title: "dsa",
-      paragraph: "",
+      title: t("coffeeShops"),
+      paragraph: t("coffeeShopsDescription"),
+      href: "https://www.coffeemarket.dp.ua/article/top-5-kofeen-v-odesse-gde-vkusno-i-nedorogo-popit-kofe/"
     },
     {
-      title: "",
-      paragraph: "",
+      title: t("excursions"),
+      paragraph: t("excursionsDescription"),
+      href: "https://edo.od.ua/katalog-ekskursii/?gad_source=1&gclid=CjwKCAjwkuqvBhAQEiwA65XxQHW02Z_TccJmqFtRSGZWfLPekT5nZekYUd2mF3JH4EokKElIVHRaXRoCgA4QAvD_BwE"
     },
     {
-      title: "dsa",
-      paragraph: "",
+      title: t("restaurants"),
+      paragraph: t("restaurantsDescription"),
+      href: "https://www.tripadvisor.ru/Restaurants-g295368-Odesa_Odesa_Oblast.html"
     },
     {
-      title: "",
-      paragraph: "",
+      title: t("wikipedia"),
+      paragraph: t("wikipediaDescription"),
+      href: "https://uk.wikipedia.org/wiki/Одеса"
     },
     {
       title: "dsa",

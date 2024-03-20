@@ -635,7 +635,17 @@
     "lunapark": "Lunapark",
     "lunaparkDescription": "Lunapark offers you a great opportunity to come face to face with power and speed, height and fall, depth and total lack of control.",
     "archaeologicalMuseum": "Odessa Archaeological Museum",
-    "archaeologicalMuseumDescription": "Odessa Archaeological Museum of the National Academy of Sciences of Ukraine"
+    "archaeologicalMuseumDescription": "Odessa Archaeological Museum of the National Academy of Sciences of Ukraine",
+    "artMuseum": "National Art Museum",
+    "artMuseumDescription": "State art museum located in the center of Odessa",
+    "coffeeShops": "The best coffee shops",
+    "coffeeShopsDescription": "Top 5 coffee shops in Odessa: Where to drink delicious and inexpensive coffee",
+    "excursions": "Excursions around Odessa",
+    "excursionsDescription": "The most popular excursions. We recommend taking excursions if this is your first time in our city",
+    "restaurants": "Restaurants of Odessa",
+    "restaurantsDescription": "Top 10 Restaurants",
+    "wikipedia": "Link to the Wikipedia page about Odessa",
+    "wikipediaDescription": "Material from Wikipedia - the free encyclopedia"
 
   }
 }
