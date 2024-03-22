@@ -57,29 +57,31 @@ const UsefulLinkContent = () => {
       href: "https://uk.wikipedia.org/wiki/Одеса"
     },
     {
-      title: "dsa",
-      paragraph: "",
+      title: t("cinematicVideo"),
+      paragraph: t("cinematicVideoDescription"),
+      href: "https://www.youtube.com/watch?v=cjs-Y4tycrw"
     },
     {
-      title: "",
-      paragraph: "",
+      title: t("songs"),
+      paragraph: t("songsDescription"),
+      href: "https://www.youtube.com/watch?v=7iOEF0DodEc"
     },
     {
-      title: "dsa",
-      paragraph: "",
+      title: t("port"),
+      paragraph: t("portDescription"),
+      href: "https://odessitclub.org/old/index.php/chitalnyi-zal/630-odesskij-port-ot-antichnosti-do-nashikh-dnej"
     },
     {
-      title: "",
-      paragraph: "",
+      title: t("stadium"),
+      paragraph: t("stadiumDescription"),
+      href: "https://www.stadium.odessa.ua"
     },
     {
-      title: "dsa",
-      paragraph: "",
+      title: t("zoo"),
+      paragraph: t("zooDescription"),
+      href: "https://www.zoo.ua"
     },
-    {
-      title: "",
-      paragraph: "",
-    },
+    
   ];
   return (
     <Row gutter={[16, 16]} style={{ width: "90%", margin: "0 auto" }}>
@@ -88,7 +90,7 @@ const UsefulLinkContent = () => {
       </Col>
       <Divider style={{ margin: "0" }} />
       {items.map(item => (
-        <Col span={8}>
+        <Col key={item.title} span={8}>
           <UsefulLinkBlock title={item.title} paragraph={item.paragraph} href={item.href}/>
         </Col>
       ))}

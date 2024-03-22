@@ -7,7 +7,7 @@ const LanguageSwitcher: React.FC = () => {
   return (
     <div className='translator-buttons'>
       <Link className='language-switcher' href="/ru">RU</Link>
-      <Link className='language-switcher' href="/uk">UK</Link>
+      <Link className='language-switcher' href="/ua">UA</Link>
       <Link className='language-switcher' href="/en">EN</Link>
     </div>
   );
