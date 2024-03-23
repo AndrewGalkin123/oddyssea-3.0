@@ -1,62 +1,57 @@
 import Link from "next/link";
 import "./Footer.css"
-
+import { useTranslations } from "next-intl";
 
 const TheFooter: React.FC = () => {
+  const t = useTranslations("Footer")
   return (
     <footer>
       <div className="container">
         <div className="row">
           <div className="footer-col">
-            <h4>История проекта</h4>
+            <h4>{t("projectHistory")}</h4>
             <ul>
               <li>
-                <Link href=""> О нас</Link>
+                <Link href="">{t("aboutUs")}</Link>
               </li>
               <li>
-                <Link href=""> Наша Команда</Link>
+                <Link href="">{t("ourTeam")}</Link>
               </li>
               <li>
-                <Link href=""> История Проекта</Link>
-              </li>
-              <li>
-                <Link href=""> Контакты</Link>
+                <Link href="">{t("projectHistory")}</Link>
               </li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>История Города</h4>
+            <h4>{t("cityHistory")}</h4>
             <ul>
               <li>
-                <Link href=""> О нас</Link>
+                <Link href="">{t("informationAboutOdessa")}</Link>
               </li>
               <li>
-                <Link href=""> Наша Команда</Link>
+                <Link href="">{t("history")}</Link>
               </li>
               <li>
-                <Link href=""> История Проекта</Link>
+                <Link href="">{t("culture")}</Link>
               </li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Полезная информация</h4>
+            <h4>{t("helpfulInformation")}</h4>
             <ul>
               <li>
-                <Link href=""> Наша Команда</Link>
+                <Link href="">{t("FAQ")}</Link>
               </li>
               <li>
-                <Link href=""> История Проекта</Link>
+                <Link href="">{t("usefulLinks")}</Link>
               </li>
               <li>
-                <Link href=""> История Проекта</Link>
-              </li>
-              <li>
-                <Link href=""> FAQ</Link>
+                <Link href="">{t("contactUs")}</Link>
               </li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Наши ссылки</h4>
+            <h4>{t("ourLinks")}</h4>
             <div className="social-links">
               <a href="#"><i className="fab fa-telegram"></i></a>
               <a href="#"><i className="fab fa-twitter"></i></a>

@@ -34,6 +34,20 @@
     "artMuseum": "Odessa National Art Museum",
     "spasoPreobrazhenskyCathedral": "Spaso-Preobrazhensky Cathedral in Odessa"
   },
+  "Footer": {
+    "projectHistory": "Project History",
+    "aboutUs": "About us",
+    "ourTeam": "Our team",
+    "cityHistory": "City History",
+    "informationAboutOdessa": "Information about Odessa",
+    "history": "History",
+    "culture": "Culture",
+    "helpfulInformation": "Helpful Information",
+    "FAQ": "FAQ",
+    "usefulLinks": "Useful Links",
+    "contactUs": "Contact Us",
+    "ourLinks": "Our links"
+  },
   "AboutOdessa": {
     "title": "Information About Odessa",
     "welcomeToOdessa": "Welcome to Odessa, the pearl of the Black Sea! This unique city, with its rich history and distinctive atmosphere, invites you to an exciting journey full of discoveries and impressions.",
