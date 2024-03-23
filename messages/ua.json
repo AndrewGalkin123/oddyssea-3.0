@@ -46,7 +46,8 @@
     "FAQ": "FAQ",
     "usefulLinks": "Корисні посилання",
     "contactUs": "Зв'язатися з нами",
-    "ourLinks": "Наші посилання"
+    "ourLinks": "Наші посилання",
+    "contactUsHref": "https://forms.gle/mpwVLmAMcdWgeX6n6"
   },
   "AboutOdessa": {
     "title": "Інформація про Одесу",

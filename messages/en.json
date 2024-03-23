@@ -46,7 +46,8 @@
     "FAQ": "FAQ",
     "usefulLinks": "Useful Links",
     "contactUs": "Contact Us",
-    "ourLinks": "Our links"
+    "ourLinks": "Our links",
+    "contactUsHref": "https://forms.gle/aSXkpdkgemFh2efE6"
   },
   "AboutOdessa": {
     "title": "Information About Odessa",

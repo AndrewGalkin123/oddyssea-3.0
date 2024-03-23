@@ -46,7 +46,7 @@ const TheFooter: React.FC = () => {
                 <Link href="">{t("usefulLinks")}</Link>
               </li>
               <li>
-                <Link href="">{t("contactUs")}</Link>
+                <Link target="_blank" href={t("contactUsHref")}>{t("contactUs")}</Link>
               </li>
             </ul>
           </div>
