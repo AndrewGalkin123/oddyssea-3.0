@@ -1,22 +1,10 @@
 "use client";
-import { useRef } from "react";
-import { SightHelpButtons } from "./SightHelpButtons";
 import { useTranslations } from "next-intl";
-import historyContent from "../../public/content/historyContent.json"
+import historyContent from "../../public/content/historyContent.json";
 
-
-
-
-const SightPageContent  = ({ sight }) => {
-  const textContentRef = useRef(null);
-
+const SightPageContent = ({ sight }) => {
   const t = useTranslations(sight);
-  
-  const handleScrollButtonClick = () => {
-    if (textContentRef.current) {
-      textContentRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
   return (
     <div>
       <iframe
@@ -24,7 +12,7 @@ const SightPageContent  = ({ sight }) => {
         src={`https://www.google.com/maps/embed?pb=${historyContent[sight].frame}`}
         loading="lazy"
       ></iframe>
-      <SightHelpButtons onClick={handleScrollButtonClick} />
+
       <div
         className="content"
         style={{
@@ -36,27 +24,43 @@ const SightPageContent  = ({ sight }) => {
           display: "flex",
         }}
       >
-        <div className="textContent" ref={textContentRef}>
+        <div className="textContent">
           <br></br>
           <br></br>
           <h1>{t("title")}</h1>
-          <br/>
+          <br />
           <p>{t("paragraph#1")}</p>
           <br></br>
-          <img className="article-images" src={historyContent[sight].firstImage}></img>
+          <img
+            className="article-images"
+            src={historyContent[sight].firstImage}
+          ></img>
           <br></br>
-          
+
           <p>{t("paragraph#2")}</p>
           <p>{t("paragraph#3")}</p>
-          <br/>
-          <img className="article-images" src={historyContent[sight].secondImage}></img>
+          <br />
+          <img
+            className="article-images"
+            src={historyContent[sight].secondImage}
+          ></img>
           <p>{t("paragraph#4")}</p>
           <p>{t("paragraph#5")}</p>
           <br />
-          <img className="article-images" src={historyContent[sight].thirdImage}></img>
+          <img
+            className="article-images"
+            src={historyContent[sight].thirdImage}
+          ></img>
           <p>{t("paragraph#6")}</p>
+          <br></br>
+          <img
+            className="article-images"
+            src={historyContent[sight].fourthImage}
+          ></img>
           <p>{t("paragraph#7")}</p>
+          
         </div>
+       
         <div className="otherContent">
           <p></p>
           <div className="photo-item-container">{/* <RedirectBlock/> */}</div>
