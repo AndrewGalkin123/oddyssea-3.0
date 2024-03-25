@@ -26,11 +26,18 @@ main {
   height: 800px;
 }
 
+.article-images {
+  max-width: 800px;
+  border-radius: 4px;
+}
+
 .textContent {
   width: 800px;
   margin: 0 auto;
   max-width: 900px;
 }
+
+
 
 .scroll-button,
 .redirect-button {

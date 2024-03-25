@@ -1,20 +1,18 @@
 "use client";
-import { MutableRefObject, useRef } from "react";
+import { useRef } from "react";
 import { SightHelpButtons } from "./SightHelpButtons";
 import { useTranslations } from "next-intl";
 import historyContent from "../../public/content/historyContent.json"
 
 
-interface SightPageContentProps {
-  sight: string;
-}
 
-const SightPageContent: React.FC<SightPageContentProps> = ({ sight }) => {
-  const textContentRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+
+const SightPageContent  = ({ sight }) => {
+  const textContentRef = useRef(null);
 
   const t = useTranslations(sight);
   
-  const handleScrollButtonClick = (): void => {
+  const handleScrollButtonClick = () => {
     if (textContentRef.current) {
       textContentRef.current.scrollIntoView({ behavior: "smooth" });
     }
@@ -42,16 +40,20 @@ const SightPageContent: React.FC<SightPageContentProps> = ({ sight }) => {
           <br></br>
           <br></br>
           <h1>{t("title")}</h1>
+          <br/>
           <p>{t("paragraph#1")}</p>
-          <br />
-          <img></img>
+          <br></br>
+          <img className="article-images" src={historyContent[sight].firstImage}></img>
+          <br></br>
+          
           <p>{t("paragraph#2")}</p>
           <p>{t("paragraph#3")}</p>
           <br/>
+          <img className="article-images" src={historyContent[sight].secondImage}></img>
           <p>{t("paragraph#4")}</p>
           <p>{t("paragraph#5")}</p>
           <br />
-          <img></img>
+          <img className="article-images" src={historyContent[sight].thirdImage}></img>
           <p>{t("paragraph#6")}</p>
           <p>{t("paragraph#7")}</p>
         </div>

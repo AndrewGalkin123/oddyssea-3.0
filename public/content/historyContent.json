@@ -1,6 +1,11 @@
+
 {
     "archaeological-museum": {
-        "frame": "!4v1690799078512!6m8!1m7!1sCAoSLEFGMVFpcE1oUmJ6WHRHdUJUSVVMZU5rbklZZUh5YzVkMDNCZUVyT29hSk9u!2m2!1d46.485071!2d30.7439437!3f4.180024503728842!4f2.3371492776826983!5f0.7820865974627469"
+        "frame": "!4v1690799078512!6m8!1m7!1sCAoSLEFGMVFpcE1oUmJ6WHRHdUJUSVVMZU5rbklZZUh5YzVkMDNCZUVyT29hSk9u!2m2!1d46.485071!2d30.7439437!3f4.180024503728842!4f2.3371492776826983!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/archeologicalMuseum2.jpeg",
+        "secondImage": "/assets/historyPageImages/archeologicalMuseumOldPhoto.jpeg",
+        "thirdImage": "/assets/historyPageImages/archeologicalMuseum3.jpeg"
+        
     },
     "theater-garden": {
         "frame": "!4v1689361520043!6m8!1m7!1sCAoSLEFGMVFpcE5MbllpUm1mZVJNVEpPOEh6UW1NN1hhYk8xWGMxdTAyMnhXZllU!2m2!1d46.4853454!2d30.7419042!3f102.51818097618853!4f10.794680147358719!5f0.4000000000000002"
