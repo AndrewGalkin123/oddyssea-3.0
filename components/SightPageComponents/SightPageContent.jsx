@@ -52,15 +52,20 @@ const SightPageContent = ({ sight }) => {
             src={historyContent[sight].thirdImage}
           ></img>
           <p>{t("paragraph#6")}</p>
-          <br></br>
-          <img
-            className="article-images"
-            src={historyContent[sight].fourthImage}
-          ></img>
+
+          {historyContent[sight].fourthImage && (
+            <>
+              <br></br>
+              <img
+                className="article-images"
+                src={historyContent[sight].fourthImage}
+              ></img>
+            </>
+          )}
+
           <p>{t("paragraph#7")}</p>
-          
         </div>
-       
+
         <div className="otherContent">
           <p></p>
           <div className="photo-item-container">{/* <RedirectBlock/> */}</div>
