@@ -12,7 +12,10 @@
         "thirdImage": "/assets/historyPageImages/opera.jpeg"
     },
     "amusement-park": {
-        "frame": "!4v1689099325863!6m8!1m7!1sCAoSLEFGMVFpcE5ZenZqdzN2NFRtZjc0eGhMTGNQblhNMVpoNy1mOTMwOVMyYVBO!2m2!1d46.47592306618698!2d30.75545276087636!3f189.93300223778863!4f4.346399857883782!5f0.7820865974627469"
+        "frame": "!4v1689099325863!6m8!1m7!1sCAoSLEFGMVFpcE5ZenZqdzN2NFRtZjc0eGhMTGNQblhNMVpoNy1mOTMwOVMyYVBO!2m2!1d46.47592306618698!2d30.75545276087636!3f189.93300223778863!4f4.346399857883782!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/lunapark1.jpeg",
+        "secondImage": "/assets/historyPageImages/lunapark2.jpeg",
+        "thirdImage": "/assets/historyPageImages/lunapark3.jpeg"
     },
     "vorontsovsky-lighthouse": {
         "frame": "!4v1689274756491!6m8!1m7!1sCAoSLEFGMVFpcE01RGxpVFJ1ZXp1dG5iWlcxZVBCUkM2dXdTVU9KaTY0R3BLNmZI!2m2!1d46.4964298!2d30.7592233!3f50.22633631644329!4f-9.85227658665886!5f1.2858998550331306",

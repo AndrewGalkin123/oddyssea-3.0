@@ -72,26 +72,26 @@ main {
   background-color: #e2e5ed;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-left: 100px;
 }
 
-.otherContent .photo_item {
-  margin-right: 0;
+.otherContent .photo-item {
+  margin-right: 0 ;
 }
 
 .otherContent .title {
   font-size: 18px;
-  margin-top: 50px;
   margin-bottom: 20px;
 }
 
 .photo-item-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 80px;
+
 }
 
 @media screen and (max-width: 900px) {

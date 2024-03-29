@@ -1,9 +1,12 @@
 "use client";
 import { useTranslations } from "next-intl";
-import historyContent from "../../public/content/historyContent.json";
+import historyContent from "../../public/content/historyContent";
+import { RedirectBlock } from "../common/MainRedirectBlock/RedirectBlock";
 
 const SightPageContent = ({ sight }) => {
   const t = useTranslations(sight);
+  const commonT = useTranslations("Common");
+  
 
   return (
     <div>
@@ -67,8 +70,12 @@ const SightPageContent = ({ sight }) => {
         </div>
 
         <div className="otherContent">
-          <p></p>
-          <div className="photo-item-container">{/* <RedirectBlock/> */}</div>
+          <p className="title">{commonT("otherContentTitle")}</p>
+          <div className="photo-item-container">
+            <RedirectBlock/>
+            <RedirectBlock />
+            <RedirectBlock />
+          </div>
         </div>
       </div>
     </div>
