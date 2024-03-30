@@ -31,7 +31,7 @@ const ContentMenu: React.FC<{ onItemClick: (key: string) => void }> = ({ onItemC
       <SubMenu key="Religion" title={t("religion")}>
         <Item key="CathedralsAndChurches">{t("cathedralsAndChurches")}</Item>
         <Item key="Synagogues">{t("synagogues")}</Item>
-        <Item key="ReligiousHolidays">{t("culturalEvents")}</Item>
+        <Item key="ReligiousHolidays">{t("religiousHolidays")}</Item>
       </SubMenu>
       <SubMenu key="MuseumsAndGalleries" title={t("museumsAndGalleries")}>
         <Item key="ArtMuseum">{t("artMuseum")}</Item>
