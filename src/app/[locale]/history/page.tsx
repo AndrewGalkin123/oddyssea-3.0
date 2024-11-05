@@ -24,7 +24,7 @@ export default function History() {
     },
     {
       href: "history/vorontsovsky-lighthouse",
-      src: "/assets/historyPageImages/lighthouse.jpg",
+      src: "/assets/historyPageImages/vorotsovLighthouse.jpeg",
       title: t("vorontsovLighthouse"),
     },
     {
@@ -34,7 +34,7 @@ export default function History() {
     },
     {
       href: "history/sailor-wife",
-      src: "/assets/historyPageImages/sailorWife.jpg",
+      src: "/assets/historyPageImages/sailorWife.jpeg",
       title: t("sailor'sWife"),
     },
     {
