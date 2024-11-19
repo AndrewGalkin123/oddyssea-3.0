@@ -6,7 +6,16 @@ import { useTranslations } from "next-intl";
 
 const AboutOdessaContent: React.FC = () => {
   const t = useTranslations("AboutOdessa");
-
+  const textKeys = [
+    "welcomeToOdessa",
+    "odessaHistory",
+    "websiteDescription",
+    "artAndCulture",
+    "gastronomicDelights",
+    "promenadeAlongTheSeaside",
+    "oddysseaGuide",
+    "welcomeToOdessaInspiration",
+  ];
   return (
     <main style={{ padding: "100px 0px" }}>
       <Row>
@@ -19,23 +28,15 @@ const AboutOdessaContent: React.FC = () => {
             <img className="odessa-flag" src="/assets/odessaFlag.png"></img>
             <br></br>
             <div className="text">
-
-              <p>{t("welcomeToOdessa")}</p>
-              <br></br>
-              <p>{t("odessaHistory")}</p>
-              <br></br>
-              <p>{t("websiteDescription")}</p>
-              <br></br>
-              <p>{t("artAndCulture")}</p>
-              <br></br>
-              <p>{t("gastronomicDelights")}</p>
-              <br></br>
-              <p>{t("promenadeAlongTheSeaside")}</p>
-            
-              <p>{t("oddysseaGuide")}</p>
-              <br></br>
-              <p>{t("welcomeToOdessaInspiration")}</p>
-              <br></br>
+              {textKeys.map((key) => (
+                <p
+                  style={{ marginBottom: "10px" }}
+                  key={key}
+                  className="paragraph"
+                >
+                  {t(key)}
+                </p>
+              ))}
             </div>
           </div>
         </div>

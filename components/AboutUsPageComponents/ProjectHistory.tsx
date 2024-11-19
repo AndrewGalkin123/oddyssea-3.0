@@ -3,6 +3,11 @@ import { Row, Typography, Divider } from "antd";
 import { useTranslations } from "next-intl";
 
 const ProjectHistory: React.FC = () => {
+  const textKeys = [
+    "inspiredByOdessa",
+    "researchAndConsultation",
+    "joinUsOnOddyssea",
+  ];
   const t = useTranslations("AboutOddyssea");
   return (
     <Row>
@@ -11,9 +16,11 @@ const ProjectHistory: React.FC = () => {
       </Typography.Title>
       <Divider></Divider>
       <div className="content" style={{ maxWidth: "1350px" }}>
-        <p>{t("inspiredByOdessa")}</p><br></br>
-        <p>{t("researchAndConsultation")}</p>
-        <p>{t("joinUsOnOddyssea")}</p>
+        {textKeys.map((key) => (
+          <p style={{ marginBottom: "10px" }} key={key} className="paragraph">
+            {t(key)}
+          </p>
+        ))}
       </div>
     </Row>
   );

@@ -5,6 +5,15 @@ import { useTranslations } from "next-intl";
 
 const ProjectOddyssea: React.FC = () => {
   const t = useTranslations("AboutOddyssea");
+  const textKeys = [
+    "welcomeMessage",
+    "whyChooseOddyssea",
+    "virtualExperience",
+    "understandYourNeeds",
+    "personalizedRoutes",
+    "startVirtualJourney",
+    "contactUs",
+  ];
   return (
     <Row>
       <Typography.Title className="title" level={3}>
@@ -14,17 +23,11 @@ const ProjectOddyssea: React.FC = () => {
       <div className="content" style={{ maxWidth: "1350px" }}>
         <img className="avatar" src="/assets/панда.jpg" />
         <div>
-          <p>{t("welcomeMessage")}</p>
-          <br />
-          <br />
-          <p>{t("whyChooseOddyssea")}</p>
-          <p>{t("virtualExperience")}</p>
-          <br />
-          <p>{t("understandYourNeeds")}</p>
-          <p>{t("personalizedRoutes")}</p>
-          <br />
-          <p>{t("startVirtualJourney")}</p>
-          <p>{t("contactUs")}</p>
+          {textKeys.map((key) => (
+            <p style={{ marginBottom: "10px" }} key={key} className="paragraph">
+              {t(key)}
+            </p>
+          ))}
         </div>
       </div>
     </Row>

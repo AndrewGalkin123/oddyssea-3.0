@@ -1,0 +1,158 @@
+{
+    "archaeological-museum": {
+        "frame": "!4v1690799078512!6m8!1m7!1sCAoSLEFGMVFpcE1oUmJ6WHRHdUJUSVVMZU5rbklZZUh5YzVkMDNCZUVyT29hSk9u!2m2!1d46.485071!2d30.7439437!3f4.180024503728842!4f2.3371492776826983!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/archeologicalMuseum2.jpeg",
+        "secondImage": "/assets/historyPageImages/archeologicalMuseumOldPhoto.jpeg",
+        "thirdImage": "/assets/historyPageImages/archeologicalMuseum3.jpeg"
+    },
+    "theater-garden": {
+        "frame": "!4v1689361520043!6m8!1m7!1sCAoSLEFGMVFpcE5MbllpUm1mZVJNVEpPOEh6UW1NN1hhYk8xWGMxdTAyMnhXZllU!2m2!1d46.4853454!2d30.7419042!3f102.51818097618853!4f10.794680147358719!5f0.4000000000000002",
+        "firstImage": "/assets/historyPageImages/theaterGarden.jpeg",
+        "secondImage": "/assets/historyPageImages/theaterGarden.jpg",
+        "thirdImage": "/assets/historyPageImages/opera.jpeg"
+    },
+    "amusement-park": {
+        "frame": "!4v1689099325863!6m8!1m7!1sCAoSLEFGMVFpcE5ZenZqdzN2NFRtZjc0eGhMTGNQblhNMVpoNy1mOTMwOVMyYVBO!2m2!1d46.47592306618698!2d30.75545276087636!3f189.93300223778863!4f4.346399857883782!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/lunapark1.jpeg",
+        "secondImage": "/assets/historyPageImages/lunapark2.jpeg",
+        "thirdImage": "/assets/historyPageImages/lunapark3.jpeg"
+    },
+    "vorontsovsky-lighthouse": {
+        "frame": "!4v1689274756491!6m8!1m7!1sCAoSLEFGMVFpcE01RGxpVFJ1ZXp1dG5iWlcxZVBCUkM2dXdTVU9KaTY0R3BLNmZI!2m2!1d46.4964298!2d30.7592233!3f50.22633631644329!4f-9.85227658665886!5f1.2858998550331306",
+        "firstImage": "/assets/historyPageImages/vorontsovLighthouse.jpeg",
+        "secondImage": "/assets/historyPageImages/lighthouse.jpeg",
+        "thirdImage": "/assets/historyPageImages/vorontsovLighthouse2.jpeg"
+    },
+    "paul-church": {
+        "frame": "!4v1689617973723!6m8!1m7!1sdWyyfGoVwD8HN-G5N9WDTw!2m2!1d46.4831030462134!2d30.72453006454172!3f246.71198730888966!4f28.13390307233128!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/pavelChurch.jpeg",
+        "secondImage": "/assets/historyPageImages/pavelChurch2.jpeg",
+        "thirdImage": "/assets/historyPageImages/pavelChurch3.jpeg"
+    },
+    "sailor-wife": {
+        "frame": "!4v1689619124310!6m8!1m7!1sCAoSLEFGMVFpcE1tenpWRW1EVUM4R21SSkNhSzZUM3lLSUdrVFMxWWkyV2EteDdy!2m2!1d46.4918329!2d30.747956!3f47.35464365894471!4f2.5414540386990865!5f0.4000000000000002",
+        "firstImage": "/assets/historyPageImages/sailor-wife.jpeg",
+        "secondImage": "/assets/historyPageImages/sailorWife3.jpg",
+        "thirdImage": "/assets/historyPageImages/Памятник_жене_моряка_(Одесса).jpg"
+    },
+    "odessa-opera": {
+        "frame": "!4v1689706389624!6m8!1m7!1sCAoSLEFGMVFpcE03SkthcVZaMTJocDVRZ2kweU1oN0p1OVA3a2RNdC1rSkJ6aTJ6!2m2!1d46.48472166635943!2d30.74070062488317!3f31.44534860168092!4f5.419009564507775!5f1.369745924436096",
+        "firstImage": "/assets/historyPageImages/operaHouse.jpg",
+        "secondImage": "/assets/historyPageImages/operaHouse2.jpeg",
+        "thirdImage": "/assets/historyPageImages/operaHouseWinter.jpeg",
+        "fourthImage": "/assets/historyPageImages/operaImage.jpg"
+    },
+    "potemkin-stairs": {
+        "frame": "!4v1689792567937!6m8!1m7!1sCAoSLEFGMVFpcE94WEZZdzdib2wtY3otNmNkcnJ2bVhleTBHOXA2SkUwcldjbHlq!2m2!1d46.48871607577404!2d30.7423053619041!3f234.84650723792979!4f-0.22293147732713692!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/potemkinStairs.jpg",
+        "secondImage": "/assets/historyPageImages/potemkinStairs2.jpg",
+        "thirdImage": "/assets/historyPageImages/potemkinStairsOldPhoto.jpeg"
+    },
+    "duke-monument": {
+        "frame": "!4v1689877869835!6m8!1m7!1sCAoSLEFGMVFpcE9KeVA1WW1falNKT3VHQjlHd1NmUWMzMjRXRFhlRkRLNkJHQ0ZD!2m2!1d46.4881578!2d30.7412964!3f95.73419257045096!4f18.019386304797564!5f0.4000000000000002",
+        "firstImage": "/assets/historyPageImages/dukeHoldingMoon.jpeg",
+        "secondImage": "/assets/historyPageImages/dukeMonument3.jpeg",
+        "thirdImage": "/assets/historyPageImages/goldenDuke.jpg",
+        "fourthImage": "/assets/historyPageImages/dukeMonument.jpeg"
+    },
+    "vorontsov-palace": {
+        "frame": "!4v1689949987882!6m8!1m7!1sCAoSLEFGMVFpcFAtZmI5TlRqYnJRZjhQbUpUV1dUTDJpZVZ5U2JfWkc3dlUwNldH!2m2!1d46.49064781970446!2d30.73821522295475!3f125.94257393019895!4f8.738075894394754!5f1.410587453312072",
+        "firstImage": "/assets/historyPageImages/vorontsovPalace.jpeg",
+        "secondImage": "/assets/historyPageImages/colonnade2.jpeg",
+        "thirdImage": "/assets/historyPageImages/colonnade3.jpeg"
+    },
+    "pushkin-monument": {
+        "frame": "!4v1689951256938!6m8!1m7!1sCAoSLEFGMVFpcE42bEY5YWdhd090cFlDZ0FTNVFVZ1RsbG04bmpKQkdMb3VLZUhq!2m2!1d46.48618043103587!2d30.74354950573845!3f150.74277158480106!4f5.272216711655929!5f0.6526350657713837",
+        "firstImage": "/assets/historyPageImages/pushkin-monument3.jpeg",
+        "secondImage": "/assets/historyPageImages/PushkinMonumentOldPhoto.jpeg",
+        "thirdImage": "/assets/historyPageImages/pushkin-monument1.jpeg",
+        "fourthImage": "/assets/historyPageImages/dumskaSquare.jpg"
+    },
+    "odessa-passage": {
+        "frame": "!4v1689954610225!6m8!1m7!1sCAoSLEFGMVFpcE5udTRDd3N6aDJaY3h1OFVZT0ViY3Q0NmZWbW5hUUg2QTlKdFhu!2m2!1d46.48414445732981!2d30.73271004169271!3f233.75853296992602!4f18.557992974614322!5f0.4000000000000002",
+        "firstImage": "/assets/historyPageImages/passage.jpeg",
+        "secondImage": "/assets/historyPageImages/passage2.jpeg",
+        "thirdImage": "/assets/historyPageImages/passage4.jpg"
+    },
+    "victory-wings": {
+        "frame": "!4v1690210149086!6m8!1m7!1sCAoSLEFGMVFpcFBQUGgxUUlLNk5ObHJnUGZtM1RTTE5tdVNnbnNUTlJxMlptSFJi!2m2!1d46.4400633!2d30.75685499999999!3f3.44725372428455!4f-7.144645647007081!5f1.3968318794355798"
+    },
+    "victory-park": {
+        "frame": "!4v1690213356281!6m8!1m7!1sCAoSLEFGMVFpcFA1WGMtQkNuQ0FrUF9OMkhmYTJEWHVaTG1YM2toaGNzZ3p3YWF5!2m2!1d46.4422200990323!2d30.7562597413672!3f291.2919769564392!4f2.968635960025992!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/victory-park-1.jpeg",
+        "secondImage": "/assets/historyPageImages/victory-park-2.jpeg",
+        "thirdImage": "/assets/historyPageImages/victory-park-3.jpeg"
+    },
+    "vorontsov-monument": {
+        "frame": "!4v1690304115367!6m8!1m7!1sCAoSK0FGMVFpcE9hVmx2dUlNcU9ta0RmNTJZQTBnc21lczlyRXZ6dUJqNHFwREk.!2m2!1d46.48412615434913!2d30.73179361208474!3f269.99182527856095!4f15.384392587559816!5f1.187125700565809",
+        "firstImage": "/assets/historyPageImages/vorontsovMonument2.jpeg",
+        "secondImage": "/assets/historyPageImages/Monument_of_Vorontsov_in_Odessa.jpg",
+        "thirdImage": "/assets/historyPageImages/vorontsov-monument-4.jpeg"
+    },
+    "shahsky-palace": {
+        "frame": "!4v1690397237644!6m8!1m7!1sCAoSLEFGMVFpcE44clEzOU54RHJrRGNEclBsTzJlVnVkbHBVVU5kd1FHTzdTcllf!2m2!1d46.49101342844211!2d30.73523510449729!3f235.59518114176174!4f31.642611995693613!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/shahskyPalace.jpeg",
+        "secondImage": "/assets/historyPageImages/Shahskiy-dvoretz.jpg",
+        "thirdImage": "/assets/historyPageImages/shahskyDvoretz.jpeg"
+    },
+    "shevchenko-park": {
+        "frame": "!4v1690399069770!6m8!1m7!1sCAoSLEFGMVFpcFBOM2RaTUUyaGJZZDRSeXRyVXRXY2F0N2dla19QWGtUQkFwOE1j!2m2!1d46.47936803598829!2d30.75080778150596!3f249.88357323367381!4f14.406873048637834!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/shevchenko-park.jpeg",
+        "secondImage": "/assets/historyPageImages/shevchenkoPark2.jpeg",
+        "thirdImage": "/assets/historyPageImages/shevchenkoPark3.jpeg"
+    },
+    "deribasovskaya-street": {
+        "frame": "!4v1690481063254!6m8!1m7!1sCAoSLEFGMVFpcFAtdi00Q1pibS1NZGwwaGhJeDZVcnM2VGpYTkh1bVJRaTJDZzcx!2m2!1d46.48441687128544!2d30.73459571532675!3f96.13217934342539!4f1.5386541651865429!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/derebasovskaStreet.jpeg",
+        "secondImage": "/assets/historyPageImages/derebasovskaStreet2.jpeg",
+        "thirdImage": "/assets/historyPageImages/derebasovskaStreet3.jpeg",
+        "fourthImage": "/assets/historyPageImages/derebasStreet.jpeg"
+    },
+    
+    "seaside-boulevard": {
+        "frame": "!4v1690569721432!6m8!1m7!1sCAoSLEFGMVFpcFBJbWNKZTFKbUhsQUR0TnhJbzU0Sjd6YXVvX0lzbUlHWkR1QmNh!2m2!1d46.48709407490879!2d30.74254030438469!3f326.5165933843673!4f3.9225413601663206!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/seaside-boulevard3.jpeg",
+        "secondImage": "/assets/historyPageImages/seaside-boulevard2.jpeg",
+        "thirdImage": "/assets/historyPageImages/seaside-boulevard.jpeg",
+        "fourthImage": "/assets/historyPageImages/seasideBoulevard.jpeg"
+    },
+    "deribasovskaya-city-park": {
+        "frame": "!4v1690802009795!6m8!1m7!1sCAoSLEFGMVFpcFAzSHhMRXJZTGdySjNON0dMVDZVdVQySXhDOEVJSHdBeThWZjhw!2m2!1d46.4848854!2d30.7345493!3f338.741431906811!4f0.6860232185604076!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/cityPark.jpeg",
+        "secondImage": "/assets/historyPageImages/cityPark2.jpeg",
+        "thirdImage": "/assets/historyPageImages/cityPark3.jpeg",
+        "fourthImage": "/assets/historyPageImages/cityPark4.jpeg"
+    },
+    "lanzheron": {
+        "frame": "!4v1690907820735!6m8!1m7!1sCAoSLEFGMVFpcE9XR3VNVjdTa09fbVR0SWtzSmZ2eTJDeXlyakhabzhzemxPVDNy!2m2!1d46.477021!2d30.7655121!3f83.75161451026975!4f5.660288822141723!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/lanzheron.jpeg",
+        "secondImage": "/assets/historyPageImages/lanzheron.jpg",
+        "thirdImage": "/assets/historyPageImages/lanzheron2.jpeg"
+    },
+    "dumska-square": {
+        "frame": "!4v1690992245883!6m8!1m7!1sCAoSLEFGMVFpcFBEMEFQaXJxLUM0bGYzd2g1ZEhqSE5HRy10b0pVMVpWN3JXWG5x!2m2!1d46.48600612903508!2d30.74363798868936!3f154.39672961121363!4f17.83201134141666!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/dumskaSquare2.jpeg",
+        "secondImage": "/assets/historyPageImages/dumskaSquareillustration.jpg",
+        "thirdImage": "/assets/historyPageImages/dumskaSquare3.jpeg",
+        "fourthImage": "/assets/historyPageImages/dumskaSquare.jpeg"
+    },
+    "defense-monument": {
+        "frame": "!4v1690995834683!6m8!1m7!1sCAoSLEFGMVFpcE1LYnkwYXZRN2ZnYXdMcHBRbklXbVFCZGFjXzNYT01UNExvSVdP!2m2!1d46.4861162!2d30.7439142!3f359.10426111741776!4f14.514008101496373!5f0.6334418230594777",
+        "firstImage": "/assets/historyPageImages/defenseMonument.jpg",
+        "secondImage": "/assets/historyPageImages/Взрыв_Тигра.jpg",
+        "thirdImage": "/assets/historyPageImages/Austrian_occupation_of_odessa.jpg"
+    },
+    "art-museum": {
+        "frame": "!4v1691085615280!6m8!1m7!1sCAoSLEFGMVFpcE85ZVBmVG1jRGxxMjN1dU9OdmhMQ0FpUmdEeE9mUThoSmFibXR6!2m2!1d46.493323!2d30.728697!3f63.051960894841535!4f13.3103432413087!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/art-museum.jpeg",
+        "secondImage": "/assets/historyPageImages/Sofievskaya-5a23.jpg",
+        "thirdImage": "/assets/historyPageImages/art-museum-inside.jpeg"
+    },
+    "spaso-preobrazhensky-cathedral": {
+        "frame": "!4v1691087645992!6m8!1m7!1sCAoSK0FGMVFpcE5peGx4ZFFlalo5X3hlVEFZUElBeXpMQTRnNUF2dEowNTJoWWM.!2m2!1d46.4836077!2d30.7315329!3f202.75858225047196!4f18.272845532315827!5f0.7820865974627469",
+        "firstImage": "/assets/historyPageImages/spaso-preobrazhensky-cathedral.jpeg",
+        "secondImage": "/assets/historyPageImages/spaso-preobrazhensky.jpeg",
+        "thirdImage": "/assets/historyPageImages/spasoPreobrazhensky-3.jpeg",
+        "fourthImage": "/assets/historyPageImages/vorontsovMonument2.jpeg"
+    }
+}

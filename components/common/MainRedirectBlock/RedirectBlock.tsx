@@ -1,18 +1,19 @@
-"use client"
+"use client";
+import { MouseEventHandler } from "react";
 import "./RedirectBlock.css";
 
 interface RedirectBlockProps {
   href: string;
   src: string;
   title: string;
-  onClick?: any
+  onClick?: MouseEventHandler<HTMLAnchorElement>;
 }
 
 const RedirectBlock: React.FC<RedirectBlockProps> = ({
   href,
   src,
   title,
-  onClick
+  onClick,
 }) => {
   return (
     <a onClick={onClick} className="photo-item" href={href}>
