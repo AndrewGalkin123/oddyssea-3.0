@@ -1,7 +1,5 @@
-"use client";
-
 import { RedirectBlock } from "../../../../components/common/MainRedirectBlock/RedirectBlock";
-import { Row, Col, FloatButton } from "antd";
+
 import { useTranslations } from "next-intl";
 
 export default function History() {
@@ -136,15 +134,24 @@ export default function History() {
   ];
 
   return (
-    <main style={{ padding: "100px 0px" }}>
-      <Row gutter={[16, 16]} justify="center">
+    <main
+      style={{
+        padding: "100px 50px",
+      }}
+    >
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+
+          gap: "20px",
+          width: "100%",
+        }}
+      >
         {items.map((item) => (
-          <Col key={item.href}>
-            <RedirectBlock href={item.href} src={item.src} title={item.title} />
-          </Col>
+          <RedirectBlock href={item.href} src={item.src} title={item.title} />
         ))}
-      </Row>
-      <FloatButton.BackTop />
+      </div>
     </main>
   );
 }

@@ -9,7 +9,7 @@ interface ContentProps {
 const Content: React.FC<ContentProps> = ({ src, contentKey }) => {
   const t = useTranslations(contentKey);
   return (
-    <div className="content" style={{ maxWidth: "1400px" }}>
+    <div className="content">
       <Typography.Title level={1}>{t("title")}</Typography.Title>
       <Typography.Paragraph>{t("paragraph#1")}</Typography.Paragraph>
       <img

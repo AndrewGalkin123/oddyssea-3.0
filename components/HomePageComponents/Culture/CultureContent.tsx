@@ -62,37 +62,24 @@ const CultureContent: React.FC = () => {
         {t("culture")}
       </Typography.Title>
       <Divider style={{ margin: "10px 0 10px 0" }} />
-      <div className="content" style={{ maxWidth: "1350px" }}>
-        <div
-          id="culture_photos"
-          style={{
-            position: "relative",
-            textAlign: "center",
-            letterSpacing: "16px",
-            marginBottom: "20px",
-            overflow: "hidden",
-            height: "640px",
-          }}
-        >
-          <div
-            style={{
-              position: "absolute",
-              left: "-20px",
-              top: "0",
-              right: "-20px",
-            }}
-          >
-            {items.map((item) => (
-              <RedirectBlock
-                key={item.key}
-                href="/culture"
-                src={item.src}
-                title={item.title}
-                onClick={() => handleClick(item.key)}
-              />
-            ))}
-          </div>
-        </div>
+      <div
+        className="content"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(4, 1fr)",
+
+          gap: "20px",
+        }}
+      >
+        {items.map((item) => (
+          <RedirectBlock
+            key={item.key}
+            href="/culture"
+            src={item.src}
+            title={item.title}
+            onClick={() => handleClick(item.key)}
+          />
+        ))}
       </div>
     </Row>
   );

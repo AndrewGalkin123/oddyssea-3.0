@@ -20,7 +20,7 @@ const ProjectOddyssea: React.FC = () => {
         {t("projectOddyssea")}
       </Typography.Title>
       <Divider></Divider>
-      <div className="content" style={{ maxWidth: "1350px" }}>
+      <div className="content">
         <img className="avatar" src="/assets/панда.jpg" />
         <div>
           {textKeys.map((key) => (

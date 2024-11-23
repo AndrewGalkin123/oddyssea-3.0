@@ -3,7 +3,6 @@ import { HistoryComponent } from "./HistoryComponent";
 import { useTranslations } from "next-intl";
 import RedirectButton from "../../common/RedirectButton/RedirectButton";
 
-
 const HistoryContent: React.FC = () => {
   const t = useTranslations("Common");
   const info = useTranslations("HomePageHistory");
@@ -32,10 +31,9 @@ const HistoryContent: React.FC = () => {
       title: info("theaterGarden"),
       info: info("theaterGardenInfo"),
     },
- 
   ];
   return (
-    <Row style={{flexDirection: 'column'}}>
+    <Row style={{ flexDirection: "column" }}>
       <Typography.Title className="title" level={3}>
         {t("history")}
       </Typography.Title>
@@ -43,12 +41,11 @@ const HistoryContent: React.FC = () => {
       <div
         className="content"
         style={{
-          maxWidth: "1500px",
           display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-around",
-          padding: "0 15px",
+
           marginBottom: "20px",
+          gap: "20px",
+          flexWrap: "wrap",
         }}
       >
         {items.map((item) => (
@@ -58,11 +55,10 @@ const HistoryContent: React.FC = () => {
             src={item.src}
             title={item.title}
             info={item.info}
-          
           />
         ))}
       </div>
-        
+
       <RedirectButton to="/history">{t("redirectButtonText")}</RedirectButton>
     </Row>
   );

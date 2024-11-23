@@ -23,7 +23,7 @@ const AboutOdessaContent: React.FC = () => {
           {t("title")}
         </Typography.Title>
         <Divider></Divider>
-        <div className="content" style={{ maxWidth: "1400px" }}>
+        <div className="content">
           <div className="about-odessa-block">
             <img className="odessa-flag" src="/assets/odessaFlag.png"></img>
             <br></br>

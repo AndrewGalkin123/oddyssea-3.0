@@ -15,7 +15,7 @@ const ProjectHistory: React.FC = () => {
         {t("projectHistory")}
       </Typography.Title>
       <Divider></Divider>
-      <div className="content" style={{ maxWidth: "1350px" }}>
+      <div className="content">
         {textKeys.map((key) => (
           <p style={{ marginBottom: "10px" }} key={key} className="paragraph">
             {t(key)}
